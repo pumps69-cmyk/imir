@@ -125,7 +125,7 @@ else:
 
                 # --- 3. CONSIGNACIÓN ---
                 elif "consignación" in bloque_lower or "enviamos" in bloque_lower:
-                    st.info("💡 Operación: Envío a Consignación (Catálogo 115.06 / 814.02)")[span_5](start_span)[span_5](end_span)")
+                                        st.info("Operación: Envío a Consignación")
                     st.markdown(html_diario, unsafe_allow_html=True)
                     df_cons = pd.DataFrame({
                         "CUENTA": ["115", "115", "SUMAS"],
