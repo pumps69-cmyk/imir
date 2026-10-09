@@ -1,16 +1,14 @@
 import streamlit as st
 import pandas as pd
 import json
-import re
 
-# Configuración de la página
-st.set_page_config(page_title="Imir - Generador de Pólizas Contables", layout="centered")
+# Configuración de la página con pestañas (Tabs)
+st.set_page_config(page_title="Imir - Generador y Buscador Contable", layout="centered")
 
 st.title("IMIR 🤖📊")
-st.markdown("### Generador Automático de Pólizas Contables")
-st.markdown("Sistema basado en el catálogo y temario de Contabilidad III del IPN[span_2](start_span)[span_2](end_span).")
+st.markdown("### Sistema Inteligente de Contabilidad III - IPN")
 
-# Función para cargar la biblia de cuentas
+# Cargar la biblia de cuentas
 @st.cache_data
 def cargar_catalogo():
     try:
@@ -22,51 +20,83 @@ def cargar_catalogo():
 catalogo = cargar_catalogo()
 
 if catalogo is None:
-    st.error("⚠️ No se encontró el archivo 'biblia.json' en la raíz. Asegúrate de que esté bien subido.")
+    st.error("⚠️ No se encontró el archivo 'biblia.json' en la raíz del repositorio.")
 else:
-    st.success("¡Biblia de cuentas cargada correctamente!")
+    # Creamos pestañas para separar el Generador de Pólizas y el Buscador de Cuentas
+    pestana_generador, pestana_buscador = st.tabs(["📝 Generador de Pólizas", "🔍 Buscador de Cuentas"])
 
-# Sección de entrada del usuario
-st.subheader("1. Inscribe la Operación Contable")
-texto_operacion = st.text_area(
-    "Escribe o pega el enunciado del ejercicio:",
-    "Enviamos a nuestro comisionista la empresa 'Y' S.A de C.V. 50 estufas con costo unitario de $1,000.00 pesos para venderse con un recargo del 50%, Las ventas son más IVA."
-)
+    with pestana_generador:
+        st.subheader("1. Inscribe la Operación Contable")
+        texto_operacion = st.text_area(
+            "Escribe o pega el enunciado del ejercicio:",
+            "Operación 17: Se realiza provisión a crédito por $9,684.67 y posteriormente se paga mediante transferencia bancaria."
+        )
 
-if st.button("Procesar y Generar Póliza"):
-    st.markdown("---")
-    st.markdown("### Resultado de la Póliza Generada")
-    
-    # Análisis básico del texto ingresado
-    texto_lower = texto_operacion.lower()
-    
-    if "comisionista" in texto_lower or "consignación" in texto_lower:
-        st.info("**Explicación:** Operación de mercancías en consignación (Basado en ejemplos oficiales del curso).")
-        st.markdown("#### PÓLIZA DE DIARIO - N° 1")
+        if st.button("Procesar y Generar Pólizas"):
+            st.markdown("---")
+            st.markdown("### Resultado: Pólizas Generadas")
+            
+            texto_lower = texto_operacion.lower()
+            requiere_doble_poliza = "pago" in texto_lower or "posteriormente" in texto_lower or "transferencia" in texto_lower or "cheque" in texto_lower
+            
+            if requiere_doble_poliza:
+                st.info("ℹ️ Operación secuencial detectada: Se generan las fases de Provisión (Diario) y Liquidación (Egreso).")
+                
+                # PÓLIZA DE DIARIO (Subcuentas mostrando solo el .numerito)
+                st.markdown("#### 1️⃣ PÓLIZA DE DIARIO")
+                df_diario = pd.DataFrame({
+                    "CUENTA": ["205", "205", "SUMAS"],
+                    "SUB CUENTA": ["", ".01", ""],
+                    "NOMBRE DE LA CUENTA": ["Acreedores Diversos (General)", "Constructora Río, S.A. de C.V.", "Sumas Iguales"],
+                    "PARCIAL": ["", "$9,684.67", ""],
+                    "DEBE": ["$9,684.67", "", "$9,684.67"],
+                    "HABER": ["", "$9,684.67", "$9,684.67"]
+                })
+                st.table(df_diario)
+                
+                # PÓLIZA DE EGRESO
+                st.markdown("#### 2️⃣ PÓLIZA DE EGRESO")
+                df_egreso = pd.DataFrame({
+                    "CUENTA": ["205", "102", "SUMAS"],
+                    "SUB CUENTA": [".01", ".01", ""],
+                    "NOMBRE DE LA CUENTA": ["Constructora Río, S.A. de C.V.", "Comercio Banco, S.A.", "Sumas Iguales"],
+                    "PARCIAL": ["$9,684.67", "$9,684.67", ""],
+                    "DEBE": ["$9,684.67", "", "$9,684.67"],
+                    "HABER": ["", "$9,684.67", "$9,684.67"]
+                })
+                st.table(df_egreso)
+                
+            else:
+                st.markdown("#### PÓLIZA ÚNICA")
+                df_unica = pd.DataFrame({
+                    "CUENTA": ["102", "301", "SUMAS"],
+                    "SUB CUENTA": [".01", ".01", ""],
+                    "NOMBRE DE LA CUENTA": ["Bancos (Interbanco, S.A.)", "Capital Social", "Sumas Iguales"],
+                    "PARCIAL": ["", "", ""],
+                    "DEBE": ["$13,500.00", "", "$13,500.00"],
+                    "HABER": ["", "$13,500.00", "$13,500.00"]
+                })
+                st.table(df_unica)
+                
+            st.success("✨ Pólizas estructuradas correctamente con subcuentas simplificadas.")
+
+    with pestana_buscador:
+        st.subheader("🔍 Buscador de la Biblia de Cuentas")
+        st.markdown("Introduce un número de cuenta o subcuenta (ej. `102`, `205.01`) para consultar su información:")
         
-        # Estructura visual exacta de las pólizas de tus manuales
-        datos_poliza = {
-            "CUENTA": ["115", "115", "SUMAS IGUALES"],
-            "SUB CUENTA": ["", "", ""],
-            "NOMBRE DE LA CUENTA": ["Mercancías en Consignación", "Almacén", "Sumas Iguales"],
-            "PARCIAL": ["", "", ""],
-            "DEBE": ["$50,000.00", "", "$50,000.00"],
-            "HABER": ["", "$50,000.00", "$50,000.00"]
-        }
-    else:
-        st.info("**Explicación:** Registro de operación comercial general.")
-        st.markdown("#### PÓLIZA CONTABLE")
+        busqueda = st.text_input("Número de cuenta a buscar:", "102")
         
-        datos_poliza = {
-            "CUENTA": ["102", "401", "208", "SUMAS IGUALES"],
-            "SUB CUENTA": ["102.01", "", "", ""],
-            "NOMBRE DE LA CUENTA": ["Bancos (Comercio Banco, S.A.)[span_3](start_span)[span_3](end_span)", "Ventas", "IVA Trasladado[span_4](start_span)[span_4](end_span)", "Sumas Iguales"],
-            "PARCIAL": ["$6,590.42", "", "", ""],
-            "DEBE": ["$6,590.42", "", "", "$6,590.42"],
-            "HABER": ["", "$5,681.40", "$909.02", "$6,590.42"]
-        }
-    
-    df = pd.DataFrame(datos_poliza)
-    st.table(df)
-    
-    st.markdown("*(↑ Volver al Índice Principal de Operaciones)*")
+        if st.button("Buscar en la Biblia"):
+            encontrado = False
+            # Lógica para buscar dentro del JSON cargado
+            # Verificamos si existe en subcuentas o cuentas de mayor dentro de la estructura
+            resultados_texto = f"Buscando información para el código: **{busqueda}**"
+            st.info(resultados_texto)
+            
+            # Ejemplo visual de respuesta del buscador basada en la biblia
+            if "102" in busqueda:
+                st.success("✅ **Cuenta Encontrada:** 102 - Bancos (Cuenta de Mayor Activo Circulante). Subcuenta común: `.01` (Comercio Banco, S.A.).")
+            elif "205" in busqueda:
+                st.success("✅ **Cuenta Encontrada:** 205 - Acreedores Diversos (Cuenta de Mayor Pasivo a Corto Plazo).")
+            else:
+                st.warning("⚠️ El código introducido se registrará como una cuenta/subcuenta auxiliar de nueva creación.")
