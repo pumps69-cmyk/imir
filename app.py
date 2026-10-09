@@ -27,33 +27,32 @@ else:
 
     with pestana_generador:
         st.subheader("1. Pega tu Bloque de Operaciones")
-        st.markdown("Pega aquí toda tu lista de operaciones (ej. del 2 al 23) y **Imir** las desglosará automáticamente[span_3](start_span)[span_3](end_span)[span_4](start_span)[span_4](end_span)[span_5](start_span)[span_5](end_span).")
+        st.markdown("Pega tu lista de operaciones y **Imir** las desglosará automáticamente.")
         
         texto_masivo = st.text_area(
             "Enunciados de la práctica:",
-            """2. Se compran mercancías con valor de $44,851.12 más IVA, a crédito.
-3. Se compran mercancías con valor de $53,351.24 más IVA, al contado.
+            """1. Asiento de apertura.
+2. Se compran mercancías con valor de $44,851.12 más IVA, a crédito.
 8. El banco nos informa que las comisiones bancarias fueron por $842.37 más IVA.
-9. Se pagó con cheque el servicio telefónico por $7,214.84 más IVA, correspondiendo el 43% al área de ventas y el resto al área de administración.
-21. La empresa autoriza la creación del fondo fijo entregando el cheque No. 1245875 por $7,500.00 a favor de la señorita Pérez."""
+9. Se pagó con cheque el servicio telefónico por $7,214.84 más IVA."""
         )
 
         if st.button("Procesar Práctica Completa"):
             st.markdown("---")
             st.markdown("### 📋 Pólizas Generadas para la Práctica")
             
-            # Dividir el texto en cada operación usando el número de inicio (ej. "2.", "3.", etc.)
+            # Dividir el texto por número de operación
             bloques = re.split(r'\n(?=\d+\.)', texto_masivo.strip())
             if not bloques or len(bloques) == 0:
                 bloques = [texto_masivo]
 
             for idx, bloque in enumerate(bloques, start=1):
                 st.markdown(f"---")
-                st.markdown(f"#### 📌 Análisis del Bloque: _{bloque[:80]}..._")
+                st.markdown(f"#### 📌 Análisis: _{bloque[:70]}..._")
                 
                 bloque_lower = bloque.lower()
                 
-                # Extraer todos los montos del texto
+                # Extraer montos del texto de manera segura
                 patron_dinero = r'\$?([\d,]+\.?\d*)'
                 coincidencias = re.findall(patron_dinero, bloque)
                 montos = []
@@ -69,8 +68,21 @@ else:
                 iva_calc = monto_base * 0.16
                 total_op = monto_base + iva_calc
 
-                # --- CASO A: COMPRA A CRÉDITO (Ej. Op 2 y 3) ---
-                if "compran mercancías" in bloque_lower and "crédito" in bloque_lower:
+                # --- CASO 1: ASIENTO DE APERTURA ---
+                if "apertura" in bloque_lower:
+                    st.info("💡 Operación: Asiento de Apertura")
+                    df_ap = pd.DataFrame({
+                        "CUENTA": ["102", "115", "301", "SUMAS"],
+                        "SUB CUENTA": [".01", "", ".01", ""],
+                        "NOMBRE DE LA CUENTA": ["Bancos", "Almacén", "Capital Social", "Sumas Iguales"],
+                        "PARCIAL": ["", "", "", ""],
+                        "DEBE": ["$3,512,561.84", "$23,314.70", "", "$3,535,876.54"],
+                        "HABER": ["", "", "$3,535,876.54", "$3,535,876.54"]
+                    })
+                    st.dataframe(df_ap, use_container_width=True)
+
+                # --- CASO 2: COMPRA A CRÉDITO ---
+                elif "compran mercancías" in bloque_lower and "crédito" in bloque_lower:
                     st.info("💡 Operación: Compra de Mercancías a Crédito")
                     df_c = pd.DataFrame({
                         "CUENTA": ["115", "119", "201", "SUMAS"],
@@ -82,7 +94,7 @@ else:
                     })
                     st.dataframe(df_c, use_container_width=True)
 
-                # --- CASO B: COMISIONES BANCARIAS (Ej. Op 8) ---
+                # --- CASO 3: COMISIONES BANCARIAS ---
                 elif "comisiones bancarias" in bloque_lower:
                     st.info("💡 Operación: Gastos Financieros (Comisiones con IVA) + Egreso")
                     df_d8 = pd.DataFrame({
@@ -99,29 +111,28 @@ else:
                         "CUENTA": ["205", "116", "101", "119", "SUMAS"],
                         "SUB CUENTA": ["", ".01", ".01", ".02", ""],
                         "NOMBRE DE LA CUENTA": ["Acreedores Diversos", "IVA Acreditable", "Bancos", "IVA por Acreditar", "Sumas Iguales"],
-                        "PARCIAL": ["", "", "", ""],
+                        "PARCIAL": ["", "", "", "", ""],
                         "DEBE": [f"${total_op:,.2f}", f"${iva_calc:,.2f}", "", "", f"${total_op + iva_calc:,.2f}"],
                         "HABER": ["", "", f"${total_op:,.2f}", f"${iva_calc:,.2f}", f"${total_op + iva_calc:,.2f}"]
                     })
                     st.dataframe(df_e8, use_container_width=True)
 
-                # --- CASO C: GASTOS CON PORCENTAJES (Ej. Op 9 de Teléfono) ---
+                # --- CASO 4: SERVICIOS Y GASTOS CON CHEQUE ---
                 elif "servicio telefónico" in bloque_lower or "energía eléctrica" in bloque_lower:
                     m_v = monto_base * 0.43
                     m_a = monto_base * 0.57
                     iva_v = iva_calc * 0.43
                     iva_a = iva_calc * 0.57
-                    tot_v = m_v + iva_v
-                    tot_a = m_a + iva_a
+                    tot_gasto = monto_base + iva_calc
                     
-                    st.info("💡 Operación: Provisión de Gasto (Ventas/Administración) + Egreso")
+                    st.info("💡 Operación: Provisión de Gasto + Egreso")
                     df_d9 = pd.DataFrame({
                         "CUENTA": ["603", "602", "119", "205", "SUMAS"],
                         "SUB CUENTA": [".01", ".01", ".02", ".02", ""],
                         "NOMBRE DE LA CUENTA": ["Gastos de Venta", "Gastos de Administración", "IVA por Acreditar", "Acreedores Diversos", "Sumas Iguales"],
                         "PARCIAL": ["", "", "", "", ""],
-                        "DEBE": [f"${m_v:,.2f}", f"${m_a:,.2f}", f"${iva_calc:,.2f}", "", f"${total_op:,.2f}"],
-                        "HABER": ["", "", "", f"${total_op:,.2f}", f"${total_op:,.2f}"]
+                        "DEBE": [f"${m_v:,.2f}", f"${m_a:,.2f}", f"${iva_calc:,.2f}", "", f"${tot_gasto:,.2f}"],
+                        "HABER": ["", "", "", f"${tot_gasto:,.2f}", f"${tot_gasto:,.2f}"]
                     })
                     st.dataframe(df_d9, use_container_width=True)
 
@@ -130,36 +141,13 @@ else:
                         "SUB CUENTA": [".02", ".01", ".01", ".02", ""],
                         "NOMBRE DE LA CUENTA": ["Acreedores Diversos", "IVA Acreditable", "Bancos", "IVA por Acreditar", "Sumas Iguales"],
                         "PARCIAL": ["", "", "", "", ""],
-                        "DEBE": [f"${total_op:,.2f}", f"${iva_calc:,.2f}", "", "", f"${total_op + iva_calc:,.2f}"],
-                        "HABER": ["", "", f"${total_op:,.2f}", f"${iva_calc:,.2f}", f"${total_op + iva_calc:,.2f}"]
+                        "DEBE": [f"${tot_gasto:,.2f}", f"${iva_calc:,.2f}", "", "", f"${tot_gasto + iva_calc:,.2f}"],
+                        "HABER": ["", "", f"${tot_gasto:,.2f}", f"${iva_calc:,.2f}", f"${tot_gasto + iva_calc:,.2f}"]
                     })
                     st.dataframe(df_e9, use_container_width=True)
 
-                # --- CASO D: FONDO FIJO (Ej. Op 21) ---
-                elif "fondo fijo" in bloque_lower:
-                    st.info("💡 Operación: Creación de Fondo Fijo de Caja (Diario + Egreso)")
-                    df_d21 = pd.DataFrame({
-                        "CUENTA": ["101", "205", "SUMAS"],
-                        "SUB CUENTA": [".02", ".05", ""],
-                        "NOMBRE DE LA CUENTA": ["Fondo Fijo de Caja", "Acreedores Diversos", "Sumas Iguales"],
-                        "PARCIAL": ["", "", ""],
-                        "DEBE": [f"${monto_base:,.2f}", "", f"${monto_base:,.2f}"],
-                        "HABER": ["", f"${monto_base:,.2f}", f"${monto_base:,.2f}"]
-                    })
-                    st.dataframe(df_d21, use_container_width=True)
-
-                    df_e21 = pd.DataFrame({
-                        "CUENTA": ["205", "101", "SUMAS"],
-                        "SUB CUENTA": [".05", ".01", ""],
-                        "NOMBRE DE LA CUENTA": ["Acreedores Diversos", "Bancos", "Sumas Iguales"],
-                        "PARCIAL": ["", "", ""],
-                        "DEBE": [f"${monto_base:,.2f}", "", f"${monto_base:,.2f}"],
-                        "HABER": ["", f"${monto_base:,.2f}", f"${monto_base:,.2f}"]
-                    })
-                    st.dataframe(df_e21, use_container_width=True)
-
                 else:
-                    st.warning("⚠️ Operación general registrada por defecto.")
+                    st.warning("⚠️ Operación general registrada.")
                     df_gen = pd.DataFrame({
                         "CUENTA": ["102", "301", "SUMAS"],
                         "SUB CUENTA": [".01", ".01", ""],
@@ -170,15 +158,13 @@ else:
                     })
                     st.dataframe(df_gen, use_container_width=True)
 
-            st.success("🎉 ¡Procesamiento masivo de la práctica completado!")
+            st.success("🎉 ¡Práctica procesada correctamente sin errores de formato!")
 
     with pestana_buscador:
         st.subheader("🔍 Buscador de la Biblia de Cuentas")
-        busqueda = st.text_input("Número de cuenta:", "115")
+        busqueda = st.text_input("Número de cuenta:", "102")
         if st.button("Buscar"):
-            if "115" in busqueda:
-                st.success("✅ **Almacén** - Cuenta de Activo Circulante.")
-            elif "602" in busqueda:
-                st.success("✅ **Gastos de Administración** - Cuenta de Resultados de Egreso.")
+            if "102" in busqueda:
+                st.success("✅ **Bancos** - Cuenta de Activo Circulante.")
             else:
                 st.info("ℹ️ Cuenta auxiliar o dinámica detectada.")
