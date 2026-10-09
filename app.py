@@ -123,9 +123,9 @@ else:
                         })
                         st.dataframe(df_ec, use_container_width=True)
 
-                # --- 3. CONSIGNACIÓN ---
-                elif "consignación" in bloque_lower or "enviamos" in bloque_lower:
-                    st.info("Operación: Envío a Consignación")
+                               # --- 3. CONSIGNACIÓN DE MERCANCÍAS (Con unidades o mercancía explícita) ---
+                elif ("consignación" in bloque_lower or "enviamos" in bloque_lower) and ("unidad" in bloque_lower or "mercancía" in bloque_lower or "estufa" in bloque_lower):
+                    st.info("Operación: Envío de Mercancías a Consignación")
                     st.markdown(html_diario, unsafe_allow_html=True)
                     df_cons = pd.DataFrame({
                         "CUENTA": ["115", "115", "SUMAS"],
@@ -136,6 +136,21 @@ else:
                         "HABER": ["", f"${monto_base:,.2f}", f"${monto_base:,.2f}"]
                     })
                     st.dataframe(df_cons, use_container_width=True)
+
+                # --- 3.1. ENVÍO DE FONDOS / GASTOS AL COMISIONISTA (Transferencia) ---
+                elif "transferencia" in bloque_lower or "comisionista" in bloque_lower and "gastos" in bloque_lower:
+                    st.info("Operación: Envío de Fondos al Comisionista (Egreso)")
+                    st.markdown(html_egreso, unsafe_allow_html=True)
+                    df_fon = pd.DataFrame({
+                        "CUENTA": ["814", "101", "SUMAS"],
+                        "SUB CUENTA": [".04", ".01", ""],
+                        "NOMBRE DE LA CUENTA": ["Fondos del Comitente", "Bancos", "Sumas Iguales"],
+                        "PARCIAL": ["", "", ""],
+                        "DEBE": [f"${monto_base:,.2f}", "", f"${monto_base:,.2f}"],
+                        "HABER": ["", f"${monto_base:,.2f}", f"${monto_base:,.2f}"]
+                    })
+                    st.dataframe(df_fon, use_container_width=True)
+
 
                 # --- 4. INTERESES FINANCIEROS ---
                 elif "intereses" in bloque_lower or "favor" in bloque_lower:
