@@ -1,8 +1,9 @@
 import streamlit as st
 import pandas as pd
 import json
+import re
 
-# Configuración de la página con pestañas (Tabs)
+# Configuración de la página con pestañas
 st.set_page_config(page_title="Imir - Generador y Buscador Contable", layout="centered")
 
 st.title("IMIR 🤖📊")
@@ -22,14 +23,13 @@ catalogo = cargar_catalogo()
 if catalogo is None:
     st.error("⚠️ No se encontró el archivo 'biblia.json' en la raíz del repositorio.")
 else:
-    # Creamos pestañas para separar el Generador de Pólizas y el Buscador de Cuentas
     pestana_generador, pestana_buscador = st.tabs(["📝 Generador de Pólizas", "🔍 Buscador de Cuentas"])
 
     with pestana_generador:
         st.subheader("1. Inscribe la Operación Contable")
         texto_operacion = st.text_area(
             "Escribe o pega el enunciado del ejercicio:",
-            "Operación 17: Se realiza provisión a crédito por $9,684.67 y posteriormente se paga mediante transferencia bancaria."
+            "El banco nos informa que las comisiones bancarias fueron por $842.37 más IVA"
         )
 
         if st.button("Procesar y Generar Pólizas"):
@@ -37,66 +37,81 @@ else:
             st.markdown("### Resultado: Pólizas Generadas")
             
             texto_lower = texto_operacion.lower()
-            requiere_doble_poliza = "pago" in texto_lower or "posteriormente" in texto_lower or "transferencia" in texto_lower or "cheque" in texto_lower
             
-            if requiere_doble_poliza:
-                st.info("ℹ️ Operación secuencial detectada: Se generan las fases de Provisión (Diario) y Liquidación (Egreso).")
+            # Extraer montos del texto usando expresiones regulares de manera inteligente
+            patron_dinero = r'\$?([\d,]+\.?\d*)'
+            coincidencias = re.findall(patron_dinero, texto_operacion)
+            
+            monto_base = 0.0
+            for c in coincidencias:
+                c_limpio = c.replace(',', '')
+                if c_limpio:
+                    try:
+                        monto_base = float(c_limpio)
+                        break
+                    except ValueError:
+                        pass
+            
+            # Si menciona comisiones bancarias (como en tu ejemplo de la Práctica 1)
+            if "comisiones" in texto_lower or "comisión" in texto_lower:
+                iva = monto_base * 0.16
+                total_banco = monto_base + iva
                 
-                # PÓLIZA DE DIARIO (Subcuentas mostrando solo el .numerito)
-                st.markdown("#### 1️⃣ PÓLIZA DE DIARIO")
-                df_diario = pd.DataFrame({
-                    "CUENTA": ["205", "205", "SUMAS"],
-                    "SUB CUENTA": ["", ".01", ""],
-                    "NOMBRE DE LA CUENTA": ["Acreedores Diversos (General)", "Constructora Río, S.A. de C.V.", "Sumas Iguales"],
-                    "PARCIAL": ["", "$9,684.67", ""],
-                    "DEBE": ["$9,684.67", "", "$9,684.67"],
-                    "HABER": ["", "$9,684.67", "$9,684.67"]
+                st.info(f"💡 Operación detectada: Gastos Financieros (Comisiones) con IVA (Base: ${monto_base:,.2f})")
+                
+                # Generamos la Póliza de Egreso basada en el texto real
+                st.markdown("#### PÓLIZA DE EGRESO")
+                df_comision = pd.DataFrame({
+                    "CUENTA": ["701", "116", "101", "SUMAS"],
+                    "SUB CUENTA": ["", ".01", ".01", ""],
+                    "NOMBRE DE LA CUENTA": [
+                        "Gastos Financieros (Comisiones bancarias)", 
+                        "IVA Acreditable", 
+                        "Bancos (Interbanco, S.A.)", 
+                        "Sumas Iguales"
+                    ],
+                    "PARCIAL": ["", "", "", ""],
+                    "DEBE": [f"${monto_base:,.2f}", f"${iva:,.2f}", "", f"${total_banco:,.2f}"],
+                    "HABER": ["", "", f"${total_banco:,.2f}", f"${total_banco:,.2f}"]
                 })
-                st.table(df_diario)
+                st.dataframe(df_comision, use_container_width=True)
                 
-                # PÓLIZA DE EGRESO
-                st.markdown("#### 2️⃣ PÓLIZA DE EGRESO")
-                df_egreso = pd.DataFrame({
-                    "CUENTA": ["205", "102", "SUMAS"],
-                    "SUB CUENTA": [".01", ".01", ""],
-                    "NOMBRE DE LA CUENTA": ["Constructora Río, S.A. de C.V.", "Comercio Banco, S.A.", "Sumas Iguales"],
-                    "PARCIAL": ["$9,684.67", "$9,684.67", ""],
-                    "DEBE": ["$9,684.67", "", "$9,684.67"],
-                    "HABER": ["", "$9,684.67", "$9,684.67"]
+            elif "consignación" in texto_lower or "comisionista" in texto_lower:
+                st.info("💡 Operación de Mercancías en Consignación detectada.")
+                st.markdown("#### PÓLIZA DE DIARIO")
+                df_consig = pd.DataFrame({
+                    "CUENTA": ["115", "115", "SUMAS"],
+                    "SUB CUENTA": ["", "", ""],
+                    "NOMBRE DE LA CUENTA": ["Mercancías en Consignación", "Almacén", "Sumas Iguales"],
+                    "PARCIAL": ["", "", ""],
+                    "DEBE": [f"${monto_base:,.2f}" if monto_base else "$50,000.00", "", f"${monto_base:,.2f}" if monto_base else "$50,000.00"],
+                    "HABER": ["", f"${monto_base:,.2f}" if monto_base else "$50,000.00", f"${monto_base:,.2f}" if monto_base else "$50,000.00"]
                 })
-                st.table(df_egreso)
-                
+                st.dataframe(df_consig, use_container_width=True)
             else:
-                st.markdown("#### PÓLIZA ÚNICA")
-                df_unica = pd.DataFrame({
+                st.warning("⚠️ No se reconoció un patrón específico para este texto. Mostrando estructura genérica.")
+                df_gen = pd.DataFrame({
                     "CUENTA": ["102", "301", "SUMAS"],
                     "SUB CUENTA": [".01", ".01", ""],
-                    "NOMBRE DE LA CUENTA": ["Bancos (Interbanco, S.A.)", "Capital Social", "Sumas Iguales"],
+                    "NOMBRE DE LA CUENTA": ["Bancos", "Capital Social", "Sumas Iguales"],
                     "PARCIAL": ["", "", ""],
-                    "DEBE": ["$13,500.00", "", "$13,500.00"],
-                    "HABER": ["", "$13,500.00", "$13,500.00"]
+                    "DEBE": [f"${monto_base:,.2f}" if monto_base else "$0.00", "", f"${monto_base:,.2f}" if monto_base else "$0.00"],
+                    "HABER": ["", f"${monto_base:,.2f}" if monto_base else "$0.00", f"${monto_base:,.2f}" if monto_base else "$0.00"]
                 })
-                st.table(df_unica)
+                st.dataframe(df_gen, use_container_width=True)
                 
-            st.success("✨ Pólizas estructuradas correctamente con subcuentas simplificadas.")
+            st.success("✨ Póliza generada y calculada dinámicamente con base en tu texto.")
 
     with pestana_buscador:
         st.subheader("🔍 Buscador de la Biblia de Cuentas")
-        st.markdown("Introduce un número de cuenta o subcuenta (ej. `102`, `205.01`) para consultar su información:")
+        st.markdown("Introduce un número de cuenta o subcuenta (ej. `102`, `701`) para consultar su información:")
         
-        busqueda = st.text_input("Número de cuenta a buscar:", "102")
+        busqueda = st.text_input("Número de cuenta a buscar:", "701")
         
         if st.button("Buscar en la Biblia"):
-            encontrado = False
-            # Lógica para buscar dentro del JSON cargado
-            # Verificamos si existe en subcuentas o cuentas de mayor dentro de la estructura
-            resultados_texto = f"Buscando información para el código: **{busqueda}**"
-            st.info(resultados_texto)
-            
-            # Ejemplo visual de respuesta del buscador basada en la biblia
-            if "102" in busqueda:
-                st.success("✅ **Cuenta Encontrada:** 102 - Bancos (Cuenta de Mayor Activo Circulante). Subcuenta común: `.01` (Comercio Banco, S.A.).")
-            elif "205" in busqueda:
-                st.success("✅ **Cuenta Encontrada:** 205 - Acreedores Diversos (Cuenta de Mayor Pasivo a Corto Plazo).")
+            if "701" in busqueda:
+                st.success("✅ **Cuenta Encontrada:** 701 - Gastos Financieros (Comisiones bancarias). Subcuenta común: `.01`.")
+            elif "102" in busqueda:
+                st.success("✅ **Cuenta Encontrada:** 102 - Bancos (Activo Circulante). Subcuenta común: `.01`.")
             else:
-                st.warning("⚠️ El código introducido se registrará como una cuenta/subcuenta auxiliar de nueva creación.")
+                st.info("ℹ️ El código se procesará como una cuenta auxiliar o subcuenta dinámica nueva.")
