@@ -1,0 +1,5003 @@
+{
+  "catalogo_separado": [
+    {
+      "Código Completo": "101.00",
+      "Cuenta Principal": 101,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "FONDO FIJO DE CAJA",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "101.01",
+      "Cuenta Principal": 101,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "INTERBANCO, S.A.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "102.00",
+      "Cuenta Principal": 102,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "BANCOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "102.01",
+      "Cuenta Principal": 102,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "COMERCIO BANCO, S.A.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "102.02",
+      "Cuenta Principal": 102,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "INVERSIONES EN VALORES",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "102.03",
+      "Cuenta Principal": 102,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "INVERMEX",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "103.00",
+      "Cuenta Principal": 103,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "CLIENTES",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "103.01",
+      "Cuenta Principal": 103,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "LA CASA DEL CARPINTERO, S.A.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "103.02",
+      "Cuenta Principal": 103,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "COMERCIALIZADORA DE ARTÍCULOS MAX, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "103.03",
+      "Cuenta Principal": 103,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "MERCADO DEL CARPINTERO, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "103.04",
+      "Cuenta Principal": 103,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "EL CARPINTERO, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "103.05",
+      "Cuenta Principal": 103,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "EL PALACIO DEL CARPINTERO, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "103.06",
+      "Cuenta Principal": 103,
+      "Subcuenta": 6.0,
+      "Nombre de la Cuenta": "COMERCIALIZADORA E IMPORTADORA DE ARTÍCULOS, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "103.07",
+      "Cuenta Principal": 103,
+      "Subcuenta": 7.0,
+      "Nombre de la Cuenta": "CARPINTERÍA LOS HERMANOS, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "103.08",
+      "Cuenta Principal": 103,
+      "Subcuenta": 8.0,
+      "Nombre de la Cuenta": "CARPINTERÍA SAN JOSÉ, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "103.09",
+      "Cuenta Principal": 103,
+      "Subcuenta": 9.0,
+      "Nombre de la Cuenta": "CARPINTERÍA INTERNACIONAL, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "105.00",
+      "Cuenta Principal": 105,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "DEUDORES DIVERSOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "105.01",
+      "Cuenta Principal": 105,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "ENRIQUETA MARTÍNEZ",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "105.02",
+      "Cuenta Principal": 105,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "MARIO PÉREZ",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "105.03",
+      "Cuenta Principal": 105,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "SOCIOS Y ACCIONISTAS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "105.04",
+      "Cuenta Principal": 105,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "ROLANDO CASTRO MONTEMAYOR",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "105.05",
+      "Cuenta Principal": 105,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "DESPERDICIOS INDUSTRIALES, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "105.06",
+      "Cuenta Principal": 105,
+      "Subcuenta": 6.0,
+      "Nombre de la Cuenta": "MATERIALES RECICLADOS, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "105.07",
+      "Cuenta Principal": 105,
+      "Subcuenta": 7.0,
+      "Nombre de la Cuenta": "INDUSTRIAL DE ARTÍCULOS Y HERRAMIENTAS, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "106.00",
+      "Cuenta Principal": 106,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "CUENTAS Y DOCUMENTOS POR COBRAR A CORTO PLAZO",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "106.01",
+      "Cuenta Principal": 106,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "LA CASA DEL CARPINTERO, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "106.02",
+      "Cuenta Principal": 106,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "GREGORIO RUIZ MORALES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "107.00",
+      "Cuenta Principal": 107,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "FUNCIONARIOS Y EMPLEADOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "107.01",
+      "Cuenta Principal": 107,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "ENRIQUE ROSALES ROJAS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "107.02",
+      "Cuenta Principal": 107,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "DEUDORES DIVERSOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "107.03",
+      "Cuenta Principal": 107,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "MEXICANA DE ARTÍCULOS PARA CARPINTERÍA, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "107.04",
+      "Cuenta Principal": 107,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "ESTIMACIÓN DE CUENTAS INCOBRABLES",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "107.05",
+      "Cuenta Principal": 107,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "ESTIMACIÓN DE CUENTAS INCOBRABLES NACIONALES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "108.00",
+      "Cuenta Principal": 108,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "RENTAS PAGADAS POR ANTICIPADO NACIONAL",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "108.01",
+      "Cuenta Principal": 108,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "INTERESES PAGADOS POR ANTICIPADO NACIONAL",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "109.00",
+      "Cuenta Principal": 109,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "PAGOS ANTICIPADOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "109.09",
+      "Cuenta Principal": 109,
+      "Subcuenta": 9.0,
+      "Nombre de la Cuenta": "SUBSIDIO AL EMPLEO",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "109.23",
+      "Cuenta Principal": 109,
+      "Subcuenta": 23.0,
+      "Nombre de la Cuenta": "SUBSIDIO AL EMPLEO POR APLICAR",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "110.00",
+      "Cuenta Principal": 110,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "IMPUESTOS A FAVOR",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "110.01",
+      "Cuenta Principal": 110,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "IVA A FAVOR",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "113.00",
+      "Cuenta Principal": 113,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "OTRAS PAGOS ANTICIPADOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "113.01",
+      "Cuenta Principal": 113,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "IDE A FAVOR",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "113.03",
+      "Cuenta Principal": 113,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "ISR A FAVOR",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "113.06",
+      "Cuenta Principal": 113,
+      "Subcuenta": 6.0,
+      "Nombre de la Cuenta": "SUBSIDIO AL EMPLEO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "113.07",
+      "Cuenta Principal": 113,
+      "Subcuenta": 7.0,
+      "Nombre de la Cuenta": "PAGO DE LO INDEBIDO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "113.08",
+      "Cuenta Principal": 113,
+      "Subcuenta": 8.0,
+      "Nombre de la Cuenta": "OTROS IMPUESTOS A FAVOR",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "114.00",
+      "Cuenta Principal": 114,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "PAGOS PROVISIONALES",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "114.01",
+      "Cuenta Principal": 114,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "PAGOS PROVISIONALES DE ISR",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "115.01",
+      "Cuenta Principal": 115,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "INVENTARIOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "115.02",
+      "Cuenta Principal": 115,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "MATERIA PRIMA Y MATERIALES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "115.03",
+      "Cuenta Principal": 115,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "PRODUCCIÓN EN PROCESO",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "115.04",
+      "Cuenta Principal": 115,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "PRODUCTOS TERMINADOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "115.04.001",
+      "Cuenta Principal": 115,
+      "Subcuenta": 4.001,
+      "Nombre de la Cuenta": "ROTORMARTILLOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "115.04.002",
+      "Cuenta Principal": 115,
+      "Subcuenta": 4.002,
+      "Nombre de la Cuenta": "TALADROS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "115.04.003",
+      "Cuenta Principal": 115,
+      "Subcuenta": 4.003,
+      "Nombre de la Cuenta": "CEPILLOS DE MADERA",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "115.04.004",
+      "Cuenta Principal": 115,
+      "Subcuenta": 4.004,
+      "Nombre de la Cuenta": "PRENSA DE MADERA",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "115.04.005",
+      "Cuenta Principal": 115,
+      "Subcuenta": 4.005,
+      "Nombre de la Cuenta": "MOTOSIERRA",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "115.04.006",
+      "Cuenta Principal": 115,
+      "Subcuenta": 4.006,
+      "Nombre de la Cuenta": "SIERRA MANUAL",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "115.04.007",
+      "Cuenta Principal": 115,
+      "Subcuenta": 4.007,
+      "Nombre de la Cuenta": "SIERRA SABLE",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "115.04.008",
+      "Cuenta Principal": 115,
+      "Subcuenta": 4.008,
+      "Nombre de la Cuenta": "TORNILLO PARA BANCO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "115.04.009",
+      "Cuenta Principal": 115,
+      "Subcuenta": 4.009,
+      "Nombre de la Cuenta": "PRENSADOR NODULAR",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "115.04.010",
+      "Cuenta Principal": 115,
+      "Subcuenta": 4.01,
+      "Nombre de la Cuenta": "CUCHILLA DE ENSAMBLADORA",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "115.05",
+      "Cuenta Principal": 115,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "JUEGO DE BROCAS PARA MADERA",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "115.05.001",
+      "Cuenta Principal": 115,
+      "Subcuenta": 5.001,
+      "Nombre de la Cuenta": "SIERRA DE CORTE ADAPTABLE",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "115.05.002",
+      "Cuenta Principal": 115,
+      "Subcuenta": 5.002,
+      "Nombre de la Cuenta": "MARTILLOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "115.05.003",
+      "Cuenta Principal": 115,
+      "Subcuenta": 5.003,
+      "Nombre de la Cuenta": "TALADROS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "115.06",
+      "Cuenta Principal": 115,
+      "Subcuenta": 6.0,
+      "Nombre de la Cuenta": "MERCANCÍAS EN PODER DE TERCEROS (CONSIGNACIÓN)",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "115.06.001",
+      "Cuenta Principal": 115,
+      "Subcuenta": 6.001,
+      "Nombre de la Cuenta": "ARTÍCULOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "115.06.002",
+      "Cuenta Principal": 115,
+      "Subcuenta": 6.002,
+      "Nombre de la Cuenta": "ROTOMARTILLOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "115.06.003",
+      "Cuenta Principal": 115,
+      "Subcuenta": 6.003,
+      "Nombre de la Cuenta": "CEPILLOS DE MADERA",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "115.06.004",
+      "Cuenta Principal": 115,
+      "Subcuenta": 6.004,
+      "Nombre de la Cuenta": "PRENSA DE MADERAS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "115.06.005",
+      "Cuenta Principal": 115,
+      "Subcuenta": 6.005,
+      "Nombre de la Cuenta": "MOTOSIERRA",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "116.00",
+      "Cuenta Principal": 116,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "ESTIMACIÓN DE INVENTARIOS OBSOLETOS Y DE LENTO MOVIMIENTO",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "116.01",
+      "Cuenta Principal": 116,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "ESTIMACIÓN DE INVENTARIOS OBSOLETOS Y DE LENTO MOVIMIENTO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "118.00",
+      "Cuenta Principal": 118,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "IMPUESTOS ACREDITABLES",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "118.01",
+      "Cuenta Principal": 118,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "IVA ACREDITABLE PAGADO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "118.02",
+      "Cuenta Principal": 118,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "IVA ACREDITABLE DE IMPORTACIÓN PAGADO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "119.00",
+      "Cuenta Principal": 119,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "IMPUESTOS POR ACREDITAR",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "119.01",
+      "Cuenta Principal": 119,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "IVA PENDIENTE DE PAGO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "120.00",
+      "Cuenta Principal": 120,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "ANTICIPO A PROVEEDORES",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "120.01",
+      "Cuenta Principal": 120,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "ANTICIPO A PROVEEDORES NACIONAL",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "121.00",
+      "Cuenta Principal": 121,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "OTROS ACTIVOS A CORTO PLAZO",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "121.01",
+      "Cuenta Principal": 121,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "LA CASA DEL CARPINTERO MODERNO, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "151.00",
+      "Cuenta Principal": 151,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "TERRENOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "151.01",
+      "Cuenta Principal": 151,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "TERRENOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "152.00",
+      "Cuenta Principal": 152,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "EDIFICIOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "152.01",
+      "Cuenta Principal": 152,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "EDIFICIOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "153.00",
+      "Cuenta Principal": 153,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "MAQUINARIA Y EQUIPO",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "153.01",
+      "Cuenta Principal": 153,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "MAQUINARIA Y EQUIPO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "154.00",
+      "Cuenta Principal": 154,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "AUTOMÓVILES, AUTOBUSES, CAMIONES DE CARGA, TRACTOCAMIONES, MONTAJES Y REMOLQUES",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "154.01",
+      "Cuenta Principal": 154,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "AUTOMÓVILES, AUTOBUSES, CAMIONES DE CARGA, TRACTOCAMIONES, MONTAJES Y REMOLQUES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "155.00",
+      "Cuenta Principal": 155,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "MOBILIARIO Y EQUIPO DE OFICINA",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "155.01",
+      "Cuenta Principal": 155,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "MOBILIARIO Y EQUIPO DE OFICINA",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "156.00",
+      "Cuenta Principal": 156,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "EQUIPO DE CÓMPUTO",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "156.01",
+      "Cuenta Principal": 156,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "EQUIPO DE CÓMPUTO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "171.00",
+      "Cuenta Principal": 171,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "DEPRECIACIÓN ACUMULADA DE ACTIVOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "171.01",
+      "Cuenta Principal": 171,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "DEPRECIACIÓN ACUMULADA DE EDIFICIOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "171.02",
+      "Cuenta Principal": 171,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "DEPRECIACIÓN ACUMULADA DE MAQUINARIA Y EQUIPO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "171.03",
+      "Cuenta Principal": 171,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "DEPRECIACIÓN ACUMULADA DE AUTOMÓVILES, AUTOBUSES, CAMIONES DE CARGA, TRACTOCAMIONES, MONTAJES Y REMOLQUES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "171.04",
+      "Cuenta Principal": 171,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "DEPRECIACIÓN ACUMULADA EQUIPO DE CÓMPUTO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "173.00",
+      "Cuenta Principal": 173,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "GASTOS DIFERIDOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "173.01",
+      "Cuenta Principal": 173,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "GASTOS DE DIFERIDOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "177.00",
+      "Cuenta Principal": 177,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "AMORTIZACIÓN DE GASTOS DE ORGANIZACIÓN",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "177.01",
+      "Cuenta Principal": 177,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "AMORTIZACIÓN DE GASTOS DE ORGANIZACIÓN",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "181.00",
+      "Cuenta Principal": 181,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "GASTOS DE INSTALACIÓN",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "181.01",
+      "Cuenta Principal": 181,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "GASTOS DE INSTALACIÓN",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "183.00",
+      "Cuenta Principal": 183,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "AMORTIZACIÓN",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "183.01",
+      "Cuenta Principal": 183,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "AMORTIZACIÓN ACUMULADA DE ACTIVOS DIFERIDOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "183.03",
+      "Cuenta Principal": 183,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "AMORTIZACIÓN ACUMULADA DE GASTOS DIFERIDOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "183.05",
+      "Cuenta Principal": 183,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "AMORTIZACIÓN ACUMULADA DE GASTOS DE ORGANIZACIÓN",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "183.07",
+      "Cuenta Principal": 183,
+      "Subcuenta": 7.0,
+      "Nombre de la Cuenta": "AMORTIZACIÓN ACUMULADA DE GASTOS DE INSTALACIÓN",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "184.00",
+      "Cuenta Principal": 184,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "DEPÓSITOS DE RENTAS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "184.02",
+      "Cuenta Principal": 184,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "DEPÓSITOS DE ARRENDAMIENTO DE BIENES INMUEBLES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "184.03",
+      "Cuenta Principal": 184,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "OTROS DEPÓSITOS EN GARANTÍA",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "201.00",
+      "Cuenta Principal": 201,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "PROVEEDORES",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "201.01",
+      "Cuenta Principal": 201,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "PROVEEDORES NACIONALES",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "201.01.001",
+      "Cuenta Principal": 201,
+      "Subcuenta": 1.001,
+      "Nombre de la Cuenta": "ARTÍCULOS DE ACERO Y ALGO MAS, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "201.01.002",
+      "Cuenta Principal": 201,
+      "Subcuenta": 1.002,
+      "Nombre de la Cuenta": "TECNOLOGÍA MEXICANA, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "201.01.003",
+      "Cuenta Principal": 201,
+      "Subcuenta": 1.003,
+      "Nombre de la Cuenta": "MEGATECNOLOGÍA MEXICA, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "201.01.004",
+      "Cuenta Principal": 201,
+      "Subcuenta": 1.004,
+      "Nombre de la Cuenta": "COMERCIALIZADORA DE METALES, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "201.01.005",
+      "Cuenta Principal": 201,
+      "Subcuenta": 1.005,
+      "Nombre de la Cuenta": "MEXICANA DE HERRAMIENTAS, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "201.01.006",
+      "Cuenta Principal": 201,
+      "Subcuenta": 1.006,
+      "Nombre de la Cuenta": "INDUSTRIAS REGÍAS, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "201.01.007",
+      "Cuenta Principal": 201,
+      "Subcuenta": 1.007,
+      "Nombre de la Cuenta": "WALTER INDUSTRIAS, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "201.02",
+      "Cuenta Principal": 201,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "PROVEEDORES EXTRANJEROS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "202.00",
+      "Cuenta Principal": 202,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "CUENTAS POR PAGAR A CORTO PLAZO",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "202.01",
+      "Cuenta Principal": 202,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "DOCUMENTOS POR PAGAR BANCARIO Y FINANCIERO NACIONAL",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "202.01.001",
+      "Cuenta Principal": 202,
+      "Subcuenta": 1.001,
+      "Nombre de la Cuenta": "INTER BANCO, S.A.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "202.03",
+      "Cuenta Principal": 202,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "DOCUMENTOS Y CUENTAS POR PAGAR A CORTO PLAZO NACIONAL",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "202.03.001",
+      "Cuenta Principal": 202,
+      "Subcuenta": 3.001,
+      "Nombre de la Cuenta": "AUTOS INTERNACIONALES, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "202.03.002",
+      "Cuenta Principal": 202,
+      "Subcuenta": 3.002,
+      "Nombre de la Cuenta": "AUTOS EXCLUSIVOS, S.A.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "202.07",
+      "Cuenta Principal": 202,
+      "Subcuenta": 7.0,
+      "Nombre de la Cuenta": "INTERESES POR PAGAR A CORTO PLAZO NACIONAL",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "202.11",
+      "Cuenta Principal": 202,
+      "Subcuenta": 11.0,
+      "Nombre de la Cuenta": "DIVIDENDO POR PAGAR NACIONAL",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "203.00",
+      "Cuenta Principal": 203,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "COBROS ANTICIPADOS A CORTO PLAZO",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "203.01",
+      "Cuenta Principal": 203,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "RENTAS COBRADAS POR ANTICIPADO A CORTO PLAZO NACIONAL",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "203.05",
+      "Cuenta Principal": 203,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "INTERESES COBRADOS POR ANTICIPADO A CORTO PLAZO NACIONAL",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "203.18",
+      "Cuenta Principal": 203,
+      "Subcuenta": 18.0,
+      "Nombre de la Cuenta": "OTROS COBROS ANTICIPADOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "205.00",
+      "Cuenta Principal": 205,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "ACREEDORES DIVERSOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "205.01",
+      "Cuenta Principal": 205,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "SOCIOS, ACCIONISTAS O REPRESENTANTE LEGAL",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "205.02",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "ACREEDORES DIVERSOS A CORTO PLAZO NACIONAL",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "205.02.001",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.001,
+      "Nombre de la Cuenta": "CONSTRUCTORA DEL RÍO, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "205.02.002",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.002,
+      "Nombre de la Cuenta": "MUEBLES EMPRESARIALES, S.A.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "205.02.003",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.003,
+      "Nombre de la Cuenta": "CENTRO DE COMPUTACIÓN, S.A.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "205.02.004",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.004,
+      "Nombre de la Cuenta": "ASEGURADORA MÉXICO, S.A.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "205.02.005",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.005,
+      "Nombre de la Cuenta": "COMPAÑÍA PAPELERA INDUSTRIAL, S.A.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "205.02.006",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.006,
+      "Nombre de la Cuenta": "INMOBILIARIA ANTÚNEZ, S.A.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "205.02.007",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.007,
+      "Nombre de la Cuenta": "AUTOS INTERNACIONALES, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "205.02.008",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.008,
+      "Nombre de la Cuenta": "FLETES NACIONALES, S.A.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "205.02.009",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.009,
+      "Nombre de la Cuenta": "COMPAÑÍA DE LUZ",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "205.02.010",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.01,
+      "Nombre de la Cuenta": "TESORERÍA DEL GOBIERNO DE LA CDMX",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "205.02.011",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.011,
+      "Nombre de la Cuenta": "COMPAÑÍA TELEFÓNICA S.A.B",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "205.02.012",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.012,
+      "Nombre de la Cuenta": "MUEBLES EXCLUSIVOS DE OFICINA S.A.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "205.02.013",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.013,
+      "Nombre de la Cuenta": "MEXICANA DE GASOLINAS Y LUBRICANTES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "205.02.014",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.014,
+      "Nombre de la Cuenta": "FLETES THOMAS Y CIA, S.A.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "205.02.015",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.015,
+      "Nombre de la Cuenta": "SERVICAR, S.A.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "205.02.016",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.016,
+      "Nombre de la Cuenta": "AUTOTRANSPORTES MOLINA, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "205.02.017",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.017,
+      "Nombre de la Cuenta": "ASEGURADORA MONTERREY, S.R.L.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "205.02.018",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.018,
+      "Nombre de la Cuenta": "MANIOBRAS NACIONALES, S.A.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "205.02.019",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.019,
+      "Nombre de la Cuenta": "NOTARÍA MORALES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "205.02.020",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.02,
+      "Nombre de la Cuenta": "FLETES Y MUDANZAS, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "206.00",
+      "Cuenta Principal": 206,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "ANTICIPO DE CLIENTES",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "206.01",
+      "Cuenta Principal": 206,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "ANTICIPO DE CLIENTES NACIONALES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "206.05",
+      "Cuenta Principal": 206,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "LA CASA DEL ZAPATO, S.A. DE C.V.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "207.00",
+      "Cuenta Principal": 207,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "OTROS ANTICIPOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "207.01",
+      "Cuenta Principal": 207,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "IVA TRASLADADO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "207.02",
+      "Cuenta Principal": 207,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "IEPS TRASLADADO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "208.00",
+      "Cuenta Principal": 208,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "IMPUESTOS TRASLADADOS COBRADOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "209.00",
+      "Cuenta Principal": 209,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "IVA TRASLADADO NO COBRADO",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "210.00",
+      "Cuenta Principal": 210,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE SUELDOS Y SALARIOS POR PAGAR",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "210.01",
+      "Cuenta Principal": 210,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE SUELDOS Y SALARIOS POR PAGAR VENTA DE MERCANCÍA",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "210.02",
+      "Cuenta Principal": 210,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE VACACIONES POR PAGAR",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "210.03",
+      "Cuenta Principal": 210,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE AGUINALDOS POR PAGAR",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "210.04",
+      "Cuenta Principal": 210,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE FONDO DE AHORRO POR PAGAR",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "210.05",
+      "Cuenta Principal": 210,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE ASIMILADOS A SALARIOS POR PAGAR",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "210.06",
+      "Cuenta Principal": 210,
+      "Subcuenta": 6.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE REMANENTES POR DISTRIBUIR",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "210.07",
+      "Cuenta Principal": 210,
+      "Subcuenta": 7.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE OTROS SUELDOS Y SALARIOS POR PAGAR",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "211.00",
+      "Cuenta Principal": 211,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE CONTRIBUCIONES DE SEGURIDAD SOCIAL POR PAGAR",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "211.01",
+      "Cuenta Principal": 211,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE IMSS PATRONAL POR PAGAR",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "211.02",
+      "Cuenta Principal": 211,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE SAR POR PAGAR",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "211.03",
+      "Cuenta Principal": 211,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE INFONAVIT POR PAGAR",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "212.00",
+      "Cuenta Principal": 212,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "IMPUESTOS Y DERECHOS POR PAGAR",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "212.01",
+      "Cuenta Principal": 212,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "IVA POR PAGAR",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "212.02",
+      "Cuenta Principal": 212,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "IEPS POR PAGAR",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "213.00",
+      "Cuenta Principal": 213,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "ISR POR PAGAR",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "213.01",
+      "Cuenta Principal": 213,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "VACACIONES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "213.02",
+      "Cuenta Principal": 213,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "AGUINALDOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "213.03",
+      "Cuenta Principal": 213,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "IMPUESTO ESTATAL SOBRE NÓMINAS POR PAGAR",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "213.04",
+      "Cuenta Principal": 213,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "IMPUESTO ESTATAL Y MUNICIPAL POR PAGAR",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "213.05",
+      "Cuenta Principal": 213,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "OTROS IMPUESTOS POR PAGAR",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "213.10",
+      "Cuenta Principal": 213,
+      "Subcuenta": 10.0,
+      "Nombre de la Cuenta": "RETENCIONES Y CONTRIBUCIONES RETENIDAS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "216.01",
+      "Cuenta Principal": 216,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "RETENCIONES ISR POR SUELDOS Y SALARIOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "216.02",
+      "Cuenta Principal": 216,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "RETENCIONES ISR POR ASIMILADOS A SALARIOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "216.03",
+      "Cuenta Principal": 216,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "RETENCIONES ISR POR HONORARIOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "216.04",
+      "Cuenta Principal": 216,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "RETENCIONES ISR POR ARRENDAMIENTO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "216.05",
+      "Cuenta Principal": 216,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "10% ARRENDAMIENTO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "216.07",
+      "Cuenta Principal": 216,
+      "Subcuenta": 7.0,
+      "Nombre de la Cuenta": "RETENCIONES ISR POR DIVIDENDOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "216.08",
+      "Cuenta Principal": 216,
+      "Subcuenta": 8.0,
+      "Nombre de la Cuenta": "RETENCIONES ISR POR PAGOS AL EXTRANJERO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "216.09",
+      "Cuenta Principal": 216,
+      "Subcuenta": 9.0,
+      "Nombre de la Cuenta": "IMPUESTOS RETENIDOS DE ISR POR VENTA DE ACCIONES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "216.10",
+      "Cuenta Principal": 216,
+      "Subcuenta": 10.0,
+      "Nombre de la Cuenta": "IMPUESTOS RETENIDOS DE ISR POR VENTA DE PARTES SOCIALES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "216.11",
+      "Cuenta Principal": 216,
+      "Subcuenta": 11.0,
+      "Nombre de la Cuenta": "IMPUESTOS RETENIDOS DE IVA",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "216.12",
+      "Cuenta Principal": 216,
+      "Subcuenta": 12.0,
+      "Nombre de la Cuenta": "RETENCIONES DE IMSS A LOS TRABAJADORES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "252.00",
+      "Cuenta Principal": 252,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "CUENTAS POR PAGAR A LARGO PLAZO",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "252.01",
+      "Cuenta Principal": 252,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "BANCO NACIONAL, S.A.",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "252.01.001",
+      "Cuenta Principal": 252,
+      "Subcuenta": 1.001,
+      "Nombre de la Cuenta": "HIPOTECAS POR PAGAR A LARGO PLAZO NACIONAL",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "252.03",
+      "Cuenta Principal": 252,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "DOCUMENTOS Y CUENTAS POR PAGAR A LARGO PLAZO NACIONAL",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "252.07",
+      "Cuenta Principal": 252,
+      "Subcuenta": 7.0,
+      "Nombre de la Cuenta": "INTERESES POR PAGAR A LARGO PLAZO NACIONAL",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "252.11",
+      "Cuenta Principal": 252,
+      "Subcuenta": 11.0,
+      "Nombre de la Cuenta": "DIVIDENDOS POR PAGAR A LARGO PLAZO NACIONAL",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "252.17",
+      "Cuenta Principal": 252,
+      "Subcuenta": 17.0,
+      "Nombre de la Cuenta": "OTRAS CUENTAS Y DOCUMENTOS POR PAGAR A LARGO PLAZO NACIONAL",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "253.00",
+      "Cuenta Principal": 253,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "COBROS ANTICIPADOS A LARGO PLAZO",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "253.01",
+      "Cuenta Principal": 253,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "RENTAS COBRADAS POR ANTICIPADO A LARGO PLAZO NACIONAL",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "253.05",
+      "Cuenta Principal": 253,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "INTERESES COBRADOS POR ANTICIPADO A LARGO PLAZO NACIONAL",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "301.00",
+      "Cuenta Principal": 301,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "CAPITAL SOCIAL",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "301.01",
+      "Cuenta Principal": 301,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "CAPITAL SOCIAL FIJO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "302.00",
+      "Cuenta Principal": 302,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "CAPITAL SOCIAL VARIABLE",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "304.00",
+      "Cuenta Principal": 304,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "RESULTADO DE EJERCICIOS ANTERIORES",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "305.00",
+      "Cuenta Principal": 305,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "RESULTADO DEL EJERCICIO",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "305.01",
+      "Cuenta Principal": 305,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "UTILIDAD DEL EJERCICIO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "305.02",
+      "Cuenta Principal": 305,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "PÉRDIDA DEL EJERCICIO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "401.00",
+      "Cuenta Principal": 401,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "INGRESOS Y/O VENTAS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "401.01",
+      "Cuenta Principal": 401,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "VENTAS DE MERCANCÍA",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "401.01.001",
+      "Cuenta Principal": 401,
+      "Subcuenta": 1.001,
+      "Nombre de la Cuenta": "VENTAS Y/O SERVICIOS GRAVADOS A LA TASA GENERAL",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "401.02",
+      "Cuenta Principal": 401,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "VENTAS DE MERCANCÍA EN CONSIGNACIÓN",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "402.00",
+      "Cuenta Principal": 402,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "DEVOLUCIONES, DESCUENTOS O BONIFICACIONES SOBRE INGRESOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "402.01",
+      "Cuenta Principal": 402,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "DEVOLUCIONES, DESCUENTOS O BONIFICACIONES SOBRE VENTAS Y/O SERVICIOS A LA TASA GENERAL",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "403.00",
+      "Cuenta Principal": 403,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "OTROS INGRESOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "403.01",
+      "Cuenta Principal": 403,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "OTROS INGRESOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "501.00",
+      "Cuenta Principal": 501,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "COSTO DE VENTAS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "501.01",
+      "Cuenta Principal": 501,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "COSTO DE VENTAS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "501.02",
+      "Cuenta Principal": 501,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "COSTO DE VENTAS DE MERCANCÍA EN CONSIGNACIÓN",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "601.00",
+      "Cuenta Principal": 601,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "GASTOS DE VENTA",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "601.03",
+      "Cuenta Principal": 601,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "SUELDOS Y SALARIOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "601.04",
+      "Cuenta Principal": 601,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "ASIMILADOS Y SALARIOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "601.05",
+      "Cuenta Principal": 601,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "HORAS EXTRAS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "601.06",
+      "Cuenta Principal": 601,
+      "Subcuenta": 6.0,
+      "Nombre de la Cuenta": "COMISIONES",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "601.07",
+      "Cuenta Principal": 601,
+      "Subcuenta": 7.0,
+      "Nombre de la Cuenta": "BONOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "601.08",
+      "Cuenta Principal": 601,
+      "Subcuenta": 8.0,
+      "Nombre de la Cuenta": "AGUINALDO",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "601.09",
+      "Cuenta Principal": 601,
+      "Subcuenta": 9.0,
+      "Nombre de la Cuenta": "VACACIONES",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "601.10",
+      "Cuenta Principal": 601,
+      "Subcuenta": 10.0,
+      "Nombre de la Cuenta": "PRIMA VACACIONAL",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.00",
+      "Cuenta Principal": 602,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "PTU",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.03",
+      "Cuenta Principal": 602,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "CURSOS Y BECAS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.05",
+      "Cuenta Principal": 602,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "VALES DE DESPENSA",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.06",
+      "Cuenta Principal": 602,
+      "Subcuenta": 6.0,
+      "Nombre de la Cuenta": "AYUDA DE COMEDOR",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.07",
+      "Cuenta Principal": 602,
+      "Subcuenta": 7.0,
+      "Nombre de la Cuenta": "FONDO DE AHORRO",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.09",
+      "Cuenta Principal": 602,
+      "Subcuenta": 9.0,
+      "Nombre de la Cuenta": "CUOTA IMSS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.10",
+      "Cuenta Principal": 602,
+      "Subcuenta": 10.0,
+      "Nombre de la Cuenta": "APORTACIONES AL SAR",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.11",
+      "Cuenta Principal": 602,
+      "Subcuenta": 11.0,
+      "Nombre de la Cuenta": "APORTACIONES AL INFONAVIT",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.12",
+      "Cuenta Principal": 602,
+      "Subcuenta": 12.0,
+      "Nombre de la Cuenta": "IMPUESTO SOBRE NÓMINA",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.13",
+      "Cuenta Principal": 602,
+      "Subcuenta": 13.0,
+      "Nombre de la Cuenta": "DESPENSA Y ART. ASEO PARA OFNA.",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.14",
+      "Cuenta Principal": 602,
+      "Subcuenta": 14.0,
+      "Nombre de la Cuenta": "MANTT. EQUIPO DE TRANSPORTE",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.15",
+      "Cuenta Principal": 602,
+      "Subcuenta": 15.0,
+      "Nombre de la Cuenta": "MANTTO. DE EQUIPO CÓMPUTO",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.16",
+      "Cuenta Principal": 602,
+      "Subcuenta": 16.0,
+      "Nombre de la Cuenta": "SEGUROS Y FIANZAS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.17",
+      "Cuenta Principal": 602,
+      "Subcuenta": 17.0,
+      "Nombre de la Cuenta": "RENTA DE LOCALES",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.18",
+      "Cuenta Principal": 602,
+      "Subcuenta": 18.0,
+      "Nombre de la Cuenta": "PAPELERÍA Y ARTÍCULOS PARA OFICINA",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.19",
+      "Cuenta Principal": 602,
+      "Subcuenta": 19.0,
+      "Nombre de la Cuenta": "HONORARIOS PERSONAS MORALES",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.20",
+      "Cuenta Principal": 602,
+      "Subcuenta": 20.0,
+      "Nombre de la Cuenta": "HONORARIOS PERSONAS FÍSICAS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.21",
+      "Cuenta Principal": 602,
+      "Subcuenta": 21.0,
+      "Nombre de la Cuenta": "CUOTAS Y SUSCRIPCIONES",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.22",
+      "Cuenta Principal": 602,
+      "Subcuenta": 22.0,
+      "Nombre de la Cuenta": "DONATIVOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.23",
+      "Cuenta Principal": 602,
+      "Subcuenta": 23.0,
+      "Nombre de la Cuenta": "IMPUESTOS Y DERECHOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.24",
+      "Cuenta Principal": 602,
+      "Subcuenta": 24.0,
+      "Nombre de la Cuenta": "IMPUESTO PREDIAL",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.25",
+      "Cuenta Principal": 602,
+      "Subcuenta": 25.0,
+      "Nombre de la Cuenta": "AGUA",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.26",
+      "Cuenta Principal": 602,
+      "Subcuenta": 26.0,
+      "Nombre de la Cuenta": "OTROS IMPUESTOS Y DERECHOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.27",
+      "Cuenta Principal": 602,
+      "Subcuenta": 27.0,
+      "Nombre de la Cuenta": "MENSAJERÍA",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.28",
+      "Cuenta Principal": 602,
+      "Subcuenta": 28.0,
+      "Nombre de la Cuenta": "TELÉFONOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.29",
+      "Cuenta Principal": 602,
+      "Subcuenta": 29.0,
+      "Nombre de la Cuenta": "INTERNET",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.30",
+      "Cuenta Principal": 602,
+      "Subcuenta": 30.0,
+      "Nombre de la Cuenta": "LUZ",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.31",
+      "Cuenta Principal": 602,
+      "Subcuenta": 31.0,
+      "Nombre de la Cuenta": "VIGILANCIA",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.32",
+      "Cuenta Principal": 602,
+      "Subcuenta": 32.0,
+      "Nombre de la Cuenta": "COMBUSTIBLES Y LUBRICANTES",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.33",
+      "Cuenta Principal": 602,
+      "Subcuenta": 33.0,
+      "Nombre de la Cuenta": "BOLETOS DE AVIÓN",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.34",
+      "Cuenta Principal": 602,
+      "Subcuenta": 34.0,
+      "Nombre de la Cuenta": "PASAJES Y TRANSPORTES LOCALES",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.35",
+      "Cuenta Principal": 602,
+      "Subcuenta": 35.0,
+      "Nombre de la Cuenta": "HOSPEDAJE",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.36",
+      "Cuenta Principal": 602,
+      "Subcuenta": 36.0,
+      "Nombre de la Cuenta": "ALIMENTACIÓN",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.37",
+      "Cuenta Principal": 602,
+      "Subcuenta": 37.0,
+      "Nombre de la Cuenta": "OTROS GASTOS DE VIAJE",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.39",
+      "Cuenta Principal": 602,
+      "Subcuenta": 39.0,
+      "Nombre de la Cuenta": "PUBLICIDAD",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.40",
+      "Cuenta Principal": 602,
+      "Subcuenta": 40.0,
+      "Nombre de la Cuenta": "ARTÍCULOS PROMOCIONALES",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.41",
+      "Cuenta Principal": 602,
+      "Subcuenta": 41.0,
+      "Nombre de la Cuenta": "OTROS GASTOS DE VENTAS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "602.45",
+      "Cuenta Principal": 602,
+      "Subcuenta": 45.0,
+      "Nombre de la Cuenta": "PUBLICIDAD",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "602.46",
+      "Cuenta Principal": 602,
+      "Subcuenta": 46.0,
+      "Nombre de la Cuenta": "ARTÍCULOS PROMOCIONALES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "602.47",
+      "Cuenta Principal": 602,
+      "Subcuenta": 47.0,
+      "Nombre de la Cuenta": "OTROS GASTOS DE VENTAS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "602.48",
+      "Cuenta Principal": 602,
+      "Subcuenta": 48.0,
+      "Nombre de la Cuenta": "COMIDAS CON EL PERSONAL",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "602.49",
+      "Cuenta Principal": 602,
+      "Subcuenta": 49.0,
+      "Nombre de la Cuenta": "COMIDAS DE NEGOCIOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "602.50",
+      "Cuenta Principal": 602,
+      "Subcuenta": 50.0,
+      "Nombre de la Cuenta": "GASTOS DE FIN DE AÑO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "602.51",
+      "Cuenta Principal": 602,
+      "Subcuenta": 51.0,
+      "Nombre de la Cuenta": "DIVERSOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "602.55",
+      "Cuenta Principal": 602,
+      "Subcuenta": 55.0,
+      "Nombre de la Cuenta": "NO DEDUCIBLES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "602.56",
+      "Cuenta Principal": 602,
+      "Subcuenta": 56.0,
+      "Nombre de la Cuenta": "GASTOS DE VENTA DE MERCANCÍAS EN CONSIGNACIÓN",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.01",
+      "Cuenta Principal": 603,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "GASTOS DE ADMINISTRACIÓN",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "603.02",
+      "Cuenta Principal": 603,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "SUELDOS Y SALARIOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.03",
+      "Cuenta Principal": 603,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "ASIMILADOS Y SALARIOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.04",
+      "Cuenta Principal": 603,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "HORAS EXTRAS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.05",
+      "Cuenta Principal": 603,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "COMISIONES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.06",
+      "Cuenta Principal": 603,
+      "Subcuenta": 6.0,
+      "Nombre de la Cuenta": "BONOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.07",
+      "Cuenta Principal": 603,
+      "Subcuenta": 7.0,
+      "Nombre de la Cuenta": "AGUINALDO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.08",
+      "Cuenta Principal": 603,
+      "Subcuenta": 8.0,
+      "Nombre de la Cuenta": "VACACIONES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.09",
+      "Cuenta Principal": 603,
+      "Subcuenta": 9.0,
+      "Nombre de la Cuenta": "PRIMA VACACIONAL",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.10",
+      "Cuenta Principal": 603,
+      "Subcuenta": 10.0,
+      "Nombre de la Cuenta": "PTU",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.11",
+      "Cuenta Principal": 603,
+      "Subcuenta": 11.0,
+      "Nombre de la Cuenta": "CURSOS Y BECAS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.12",
+      "Cuenta Principal": 603,
+      "Subcuenta": 12.0,
+      "Nombre de la Cuenta": "VALES DE DESPENSA",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.13",
+      "Cuenta Principal": 603,
+      "Subcuenta": 13.0,
+      "Nombre de la Cuenta": "AYUDA DE COMEDOR",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.14",
+      "Cuenta Principal": 603,
+      "Subcuenta": 14.0,
+      "Nombre de la Cuenta": "FONDO DE AHORRO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.15",
+      "Cuenta Principal": 603,
+      "Subcuenta": 15.0,
+      "Nombre de la Cuenta": "CUOTA IMSS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.16",
+      "Cuenta Principal": 603,
+      "Subcuenta": 16.0,
+      "Nombre de la Cuenta": "APORTACIONES AL SAR",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.17",
+      "Cuenta Principal": 603,
+      "Subcuenta": 17.0,
+      "Nombre de la Cuenta": "APORTACIONES AL INFONAVIT",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.18",
+      "Cuenta Principal": 603,
+      "Subcuenta": 18.0,
+      "Nombre de la Cuenta": "IMPUESTO SOBRE NÓMINA",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.19",
+      "Cuenta Principal": 603,
+      "Subcuenta": 19.0,
+      "Nombre de la Cuenta": "DESPENSA Y ART. ASEO PARA OFNA.",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.20",
+      "Cuenta Principal": 603,
+      "Subcuenta": 20.0,
+      "Nombre de la Cuenta": "MANTT. EQUIPO DE TRANSPORTE",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.21",
+      "Cuenta Principal": 603,
+      "Subcuenta": 21.0,
+      "Nombre de la Cuenta": "MANTTO. DE EQUIPO CÓMPUTO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.22",
+      "Cuenta Principal": 603,
+      "Subcuenta": 22.0,
+      "Nombre de la Cuenta": "SEGUROS Y FIANZAS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.23",
+      "Cuenta Principal": 603,
+      "Subcuenta": 23.0,
+      "Nombre de la Cuenta": "RENTA DE LOCALES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.24",
+      "Cuenta Principal": 603,
+      "Subcuenta": 24.0,
+      "Nombre de la Cuenta": "PAPELERÍA Y ARTÍCULOS PARA OFICINA",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.25",
+      "Cuenta Principal": 603,
+      "Subcuenta": 25.0,
+      "Nombre de la Cuenta": "HONORARIOS PERSONAS MORALES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.26",
+      "Cuenta Principal": 603,
+      "Subcuenta": 26.0,
+      "Nombre de la Cuenta": "HONORARIOS PERSONAS FÍSICAS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.27",
+      "Cuenta Principal": 603,
+      "Subcuenta": 27.0,
+      "Nombre de la Cuenta": "CUOTAS Y SUSCRIPCIONES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.28",
+      "Cuenta Principal": 603,
+      "Subcuenta": 28.0,
+      "Nombre de la Cuenta": "DONATIVOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.29",
+      "Cuenta Principal": 603,
+      "Subcuenta": 29.0,
+      "Nombre de la Cuenta": "IMPUESTOS Y DERECHOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.30",
+      "Cuenta Principal": 603,
+      "Subcuenta": 30.0,
+      "Nombre de la Cuenta": "IMPUESTO PREDIAL",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.31",
+      "Cuenta Principal": 603,
+      "Subcuenta": 31.0,
+      "Nombre de la Cuenta": "AGUA",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.32",
+      "Cuenta Principal": 603,
+      "Subcuenta": 32.0,
+      "Nombre de la Cuenta": "OTROS IMPUESTOS Y DERECHOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.33",
+      "Cuenta Principal": 603,
+      "Subcuenta": 33.0,
+      "Nombre de la Cuenta": "MENSAJERÍA",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.34",
+      "Cuenta Principal": 603,
+      "Subcuenta": 34.0,
+      "Nombre de la Cuenta": "TELÉFONOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.35",
+      "Cuenta Principal": 603,
+      "Subcuenta": 35.0,
+      "Nombre de la Cuenta": "INTERNET",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.36",
+      "Cuenta Principal": 603,
+      "Subcuenta": 36.0,
+      "Nombre de la Cuenta": "LUZ",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.37",
+      "Cuenta Principal": 603,
+      "Subcuenta": 37.0,
+      "Nombre de la Cuenta": "VIGILANCIA",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.38",
+      "Cuenta Principal": 603,
+      "Subcuenta": 38.0,
+      "Nombre de la Cuenta": "COMBUSTIBLES Y LUBRICANTES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.39",
+      "Cuenta Principal": 603,
+      "Subcuenta": 39.0,
+      "Nombre de la Cuenta": "BOLETOS DE AVIÓN",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.40",
+      "Cuenta Principal": 603,
+      "Subcuenta": 40.0,
+      "Nombre de la Cuenta": "PASAJES Y TRANSPORTES LOCALES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.41",
+      "Cuenta Principal": 603,
+      "Subcuenta": 41.0,
+      "Nombre de la Cuenta": "HOSPEDAJE",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.42",
+      "Cuenta Principal": 603,
+      "Subcuenta": 42.0,
+      "Nombre de la Cuenta": "ALIMENTACIÓN",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.43",
+      "Cuenta Principal": 603,
+      "Subcuenta": 43.0,
+      "Nombre de la Cuenta": "OTROS GASTOS DE VIAJE",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.44",
+      "Cuenta Principal": 603,
+      "Subcuenta": 44.0,
+      "Nombre de la Cuenta": "PUBLICIDAD",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.45",
+      "Cuenta Principal": 603,
+      "Subcuenta": 45.0,
+      "Nombre de la Cuenta": "ARTÍCULOS PROMOCIONALES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.46",
+      "Cuenta Principal": 603,
+      "Subcuenta": 46.0,
+      "Nombre de la Cuenta": "OTROS GASTOS DE VENTAS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.48",
+      "Cuenta Principal": 603,
+      "Subcuenta": 48.0,
+      "Nombre de la Cuenta": "COMIDAS CON EL PERSONAL",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.49",
+      "Cuenta Principal": 603,
+      "Subcuenta": 49.0,
+      "Nombre de la Cuenta": "COMIDAS DE NEGOCIOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.50",
+      "Cuenta Principal": 603,
+      "Subcuenta": 50.0,
+      "Nombre de la Cuenta": "GASTOS DE FIN DE AÑO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.51",
+      "Cuenta Principal": 603,
+      "Subcuenta": 51.0,
+      "Nombre de la Cuenta": "DIVERSOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.55",
+      "Cuenta Principal": 603,
+      "Subcuenta": 55.0,
+      "Nombre de la Cuenta": "NO DEDUCIBLES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "603.56",
+      "Cuenta Principal": 603,
+      "Subcuenta": 56.0,
+      "Nombre de la Cuenta": "DEPRECIACIÓN DE PLANTA Y EQUIPO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "613.01",
+      "Cuenta Principal": 613,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "DEPRECIACIÓN DE EDIFICIOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "613.03",
+      "Cuenta Principal": 613,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "DEPRECIACIÓN AUTOMÓVILES, AUTOBUSES, CAMIONES DE CARGA, TRACTOCAMIONES, MONTAJES Y REMOLQUES",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "613.04",
+      "Cuenta Principal": 613,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "DEPRECIACIÓN EQUIPO DE CÓMPUTO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "613.05",
+      "Cuenta Principal": 613,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "DEPRECIACIÓN DE EQUIPO DE CÓMPUTO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "614.00",
+      "Cuenta Principal": 614,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "AMORTIZACIÓN DE GASTOS DIFERIDOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "614.05",
+      "Cuenta Principal": 614,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "AMORTIZACIÓN DE GASTOS DE ORGANIZACIÓN",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "614.09",
+      "Cuenta Principal": 614,
+      "Subcuenta": 9.0,
+      "Nombre de la Cuenta": "AMORTIZACIÓN DE GASTOS DE INSTALACIÓN",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "701.00",
+      "Cuenta Principal": 701,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "GASTOS FINANCIEROS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "701.01",
+      "Cuenta Principal": 701,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "PÉRDIDA CAMBIARIA",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "701.04",
+      "Cuenta Principal": 701,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "COMISIONES BANCARIAS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "701.06",
+      "Cuenta Principal": 701,
+      "Subcuenta": 6.0,
+      "Nombre de la Cuenta": "INTERESES A CARGO BANCARIO NACIONAL",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "701.08",
+      "Cuenta Principal": 701,
+      "Subcuenta": 8.0,
+      "Nombre de la Cuenta": "INTERESES A CARGO DE PERSONAS FÍSICAS NACIONAL",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "701.10",
+      "Cuenta Principal": 701,
+      "Subcuenta": 10.0,
+      "Nombre de la Cuenta": "INTERESES A CARGO DE PERSONAS MORALES NACIONAL",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "701.11",
+      "Cuenta Principal": 701,
+      "Subcuenta": 11.0,
+      "Nombre de la Cuenta": "COMISIONES BANCARIAS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "702.00",
+      "Cuenta Principal": 702,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "PRODUCTOS FINANCIEROS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "702.01",
+      "Cuenta Principal": 702,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "UTILIDAD CAMBIARIA",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "702.04",
+      "Cuenta Principal": 702,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "INTERESES BANCARIOS A FAVOR NACIONAL",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "702.06",
+      "Cuenta Principal": 702,
+      "Subcuenta": 6.0,
+      "Nombre de la Cuenta": "INTERESES A FAVOR DE PERSONAS FÍSICAS NACIONAL",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "702.10",
+      "Cuenta Principal": 702,
+      "Subcuenta": 10.0,
+      "Nombre de la Cuenta": "INTERESES A FAVOR DE PERSONAS MORALES NACIONAL",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "703.00",
+      "Cuenta Principal": 703,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "OTROS PRODUCTOS FINANCIEROS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "703.21",
+      "Cuenta Principal": 703,
+      "Subcuenta": 21.0,
+      "Nombre de la Cuenta": "OTROS PRODUCTOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "704.00",
+      "Cuenta Principal": 704,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "OTROS GASTOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "704.01",
+      "Cuenta Principal": 704,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "PÉRDIDA EN VENTA DE ACTIVO FIJO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "704.23",
+      "Cuenta Principal": 704,
+      "Subcuenta": 23.0,
+      "Nombre de la Cuenta": "EN VENTAS DE ACTIVO FIJO",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "814.00",
+      "Cuenta Principal": 814,
+      "Subcuenta": 0.0,
+      "Nombre de la Cuenta": "OTROS INGRESOS",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "814.01",
+      "Cuenta Principal": 814,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "CUENTAS DE ORDEN",
+      "Tipo (M/A)": "M"
+    },
+    {
+      "Código Completo": "814.02",
+      "Cuenta Principal": 814,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "MERCANCÍAS EN CONSIGNACIÓN",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "814.03",
+      "Cuenta Principal": 814,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "COMITENTE CUENTA DE MERCANCÍAS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "814.04",
+      "Cuenta Principal": 814,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "FONDOS DEL COMITENTE",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "814.05",
+      "Cuenta Principal": 814,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "COMITENTE CUENTA DE FONDOS",
+      "Tipo (M/A)": "A"
+    },
+    {
+      "Código Completo": "814.06",
+      "Cuenta Principal": 814,
+      "Subcuenta": 6.0,
+      "Nombre de la Cuenta": "CLIENTES DEL COMITENTE",
+      "Tipo (M/A)": "A"
+    }
+  ],
+  "cuentas_de_mayor": [
+    {
+      "Código": 101.0,
+      "Nombre de la Cuenta": "FONDO FIJO DE CAJA",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 102.0,
+      "Nombre de la Cuenta": "BANCOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 102.02,
+      "Nombre de la Cuenta": "INVERSIONES EN VALORES",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 103.0,
+      "Nombre de la Cuenta": "CLIENTES",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 105.0,
+      "Nombre de la Cuenta": "DEUDORES DIVERSOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 105.03,
+      "Nombre de la Cuenta": "SOCIOS Y ACCIONISTAS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 106.0,
+      "Nombre de la Cuenta": "CUENTAS Y DOCUMENTOS POR COBRAR A CORTO PLAZO",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 107.0,
+      "Nombre de la Cuenta": "FUNCIONARIOS Y EMPLEADOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 107.02,
+      "Nombre de la Cuenta": "DEUDORES DIVERSOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 107.04,
+      "Nombre de la Cuenta": "ESTIMACIÓN DE CUENTAS INCOBRABLES",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 108.0,
+      "Nombre de la Cuenta": "RENTAS PAGADAS POR ANTICIPADO NACIONAL",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 109.0,
+      "Nombre de la Cuenta": "PAGOS ANTICIPADOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 109.09,
+      "Nombre de la Cuenta": "SUBSIDIO AL EMPLEO",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 109.23,
+      "Nombre de la Cuenta": "SUBSIDIO AL EMPLEO POR APLICAR",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 110.0,
+      "Nombre de la Cuenta": "IMPUESTOS A FAVOR",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 113.0,
+      "Nombre de la Cuenta": "OTRAS PAGOS ANTICIPADOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 114.0,
+      "Nombre de la Cuenta": "PAGOS PROVISIONALES",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 115.01,
+      "Nombre de la Cuenta": "INVENTARIOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 115.03,
+      "Nombre de la Cuenta": "PRODUCCIÓN EN PROCESO",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 115.04,
+      "Nombre de la Cuenta": "PRODUCTOS TERMINADOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 115.06,
+      "Nombre de la Cuenta": "MERCANCÍAS EN PODER DE TERCEROS (CONSIGNACIÓN)",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 116.0,
+      "Nombre de la Cuenta": "ESTIMACIÓN DE INVENTARIOS OBSOLETOS Y DE LENTO MOVIMIENTO",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 118.0,
+      "Nombre de la Cuenta": "IMPUESTOS ACREDITABLES",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 119.0,
+      "Nombre de la Cuenta": "IMPUESTOS POR ACREDITAR",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 120.0,
+      "Nombre de la Cuenta": "ANTICIPO A PROVEEDORES",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 121.0,
+      "Nombre de la Cuenta": "OTROS ACTIVOS A CORTO PLAZO",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 151.0,
+      "Nombre de la Cuenta": "TERRENOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 152.0,
+      "Nombre de la Cuenta": "EDIFICIOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 153.0,
+      "Nombre de la Cuenta": "MAQUINARIA Y EQUIPO",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 154.0,
+      "Nombre de la Cuenta": "AUTOMÓVILES, AUTOBUSES, CAMIONES DE CARGA, TRACTOCAMIONES, MONTAJES Y REMOLQUES",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 155.0,
+      "Nombre de la Cuenta": "MOBILIARIO Y EQUIPO DE OFICINA",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 156.0,
+      "Nombre de la Cuenta": "EQUIPO DE CÓMPUTO",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 171.0,
+      "Nombre de la Cuenta": "DEPRECIACIÓN ACUMULADA DE ACTIVOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 173.0,
+      "Nombre de la Cuenta": "GASTOS DIFERIDOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 177.0,
+      "Nombre de la Cuenta": "AMORTIZACIÓN DE GASTOS DE ORGANIZACIÓN",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 181.0,
+      "Nombre de la Cuenta": "GASTOS DE INSTALACIÓN",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 183.0,
+      "Nombre de la Cuenta": "AMORTIZACIÓN",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 184.0,
+      "Nombre de la Cuenta": "DEPÓSITOS DE RENTAS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 201.0,
+      "Nombre de la Cuenta": "PROVEEDORES",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 201.01,
+      "Nombre de la Cuenta": "PROVEEDORES NACIONALES",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 201.02,
+      "Nombre de la Cuenta": "PROVEEDORES EXTRANJEROS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 202.0,
+      "Nombre de la Cuenta": "CUENTAS POR PAGAR A CORTO PLAZO",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 202.01,
+      "Nombre de la Cuenta": "DOCUMENTOS POR PAGAR BANCARIO Y FINANCIERO NACIONAL",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 202.03,
+      "Nombre de la Cuenta": "DOCUMENTOS Y CUENTAS POR PAGAR A CORTO PLAZO NACIONAL",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 202.07,
+      "Nombre de la Cuenta": "INTERESES POR PAGAR A CORTO PLAZO NACIONAL",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 202.11,
+      "Nombre de la Cuenta": "DIVIDENDO POR PAGAR NACIONAL",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 203.0,
+      "Nombre de la Cuenta": "COBROS ANTICIPADOS A CORTO PLAZO",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 203.18,
+      "Nombre de la Cuenta": "OTROS COBROS ANTICIPADOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 205.0,
+      "Nombre de la Cuenta": "ACREEDORES DIVERSOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 205.01,
+      "Nombre de la Cuenta": "SOCIOS, ACCIONISTAS O REPRESENTANTE LEGAL",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 205.02,
+      "Nombre de la Cuenta": "ACREEDORES DIVERSOS A CORTO PLAZO NACIONAL",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 206.0,
+      "Nombre de la Cuenta": "ANTICIPO DE CLIENTES",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 207.0,
+      "Nombre de la Cuenta": "OTROS ANTICIPOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 208.0,
+      "Nombre de la Cuenta": "IMPUESTOS TRASLADADOS COBRADOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 209.0,
+      "Nombre de la Cuenta": "IVA TRASLADADO NO COBRADO",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 210.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE SUELDOS Y SALARIOS POR PAGAR",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 211.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE CONTRIBUCIONES DE SEGURIDAD SOCIAL POR PAGAR",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 212.0,
+      "Nombre de la Cuenta": "IMPUESTOS Y DERECHOS POR PAGAR",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 213.0,
+      "Nombre de la Cuenta": "ISR POR PAGAR",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 213.05,
+      "Nombre de la Cuenta": "OTROS IMPUESTOS POR PAGAR",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 213.1,
+      "Nombre de la Cuenta": "RETENCIONES Y CONTRIBUCIONES RETENIDAS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 252.0,
+      "Nombre de la Cuenta": "CUENTAS POR PAGAR A LARGO PLAZO",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 252.01,
+      "Nombre de la Cuenta": "BANCO NACIONAL, S.A.",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 252.03,
+      "Nombre de la Cuenta": "DOCUMENTOS Y CUENTAS POR PAGAR A LARGO PLAZO NACIONAL",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 253.0,
+      "Nombre de la Cuenta": "COBROS ANTICIPADOS A LARGO PLAZO",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 301.0,
+      "Nombre de la Cuenta": "CAPITAL SOCIAL",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 302.0,
+      "Nombre de la Cuenta": "CAPITAL SOCIAL VARIABLE",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 304.0,
+      "Nombre de la Cuenta": "RESULTADO DE EJERCICIOS ANTERIORES",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 305.0,
+      "Nombre de la Cuenta": "RESULTADO DEL EJERCICIO",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 401.0,
+      "Nombre de la Cuenta": "INGRESOS Y/O VENTAS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 401.01,
+      "Nombre de la Cuenta": "VENTAS DE MERCANCÍA",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 401.02,
+      "Nombre de la Cuenta": "VENTAS DE MERCANCÍA EN CONSIGNACIÓN",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 402.0,
+      "Nombre de la Cuenta": "DEVOLUCIONES, DESCUENTOS O BONIFICACIONES SOBRE INGRESOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 403.0,
+      "Nombre de la Cuenta": "OTROS INGRESOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 501.0,
+      "Nombre de la Cuenta": "COSTO DE VENTAS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 601.0,
+      "Nombre de la Cuenta": "GASTOS DE VENTA",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 601.03,
+      "Nombre de la Cuenta": "SUELDOS Y SALARIOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 601.04,
+      "Nombre de la Cuenta": "ASIMILADOS Y SALARIOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 601.05,
+      "Nombre de la Cuenta": "HORAS EXTRAS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 601.06,
+      "Nombre de la Cuenta": "COMISIONES",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 601.07,
+      "Nombre de la Cuenta": "BONOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 601.08,
+      "Nombre de la Cuenta": "AGUINALDO",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 601.09,
+      "Nombre de la Cuenta": "VACACIONES",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 601.1,
+      "Nombre de la Cuenta": "PRIMA VACACIONAL",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.0,
+      "Nombre de la Cuenta": "PTU",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.03,
+      "Nombre de la Cuenta": "CURSOS Y BECAS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.05,
+      "Nombre de la Cuenta": "VALES DE DESPENSA",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.06,
+      "Nombre de la Cuenta": "AYUDA DE COMEDOR",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.07,
+      "Nombre de la Cuenta": "FONDO DE AHORRO",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.09,
+      "Nombre de la Cuenta": "CUOTA IMSS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.1,
+      "Nombre de la Cuenta": "APORTACIONES AL SAR",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.11,
+      "Nombre de la Cuenta": "APORTACIONES AL INFONAVIT",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.12,
+      "Nombre de la Cuenta": "IMPUESTO SOBRE NÓMINA",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.13,
+      "Nombre de la Cuenta": "DESPENSA Y ART. ASEO PARA OFNA.",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.14,
+      "Nombre de la Cuenta": "MANTT. EQUIPO DE TRANSPORTE",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.15,
+      "Nombre de la Cuenta": "MANTTO. DE EQUIPO CÓMPUTO",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.16,
+      "Nombre de la Cuenta": "SEGUROS Y FIANZAS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.17,
+      "Nombre de la Cuenta": "RENTA DE LOCALES",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.18,
+      "Nombre de la Cuenta": "PAPELERÍA Y ARTÍCULOS PARA OFICINA",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.19,
+      "Nombre de la Cuenta": "HONORARIOS PERSONAS MORALES",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.2,
+      "Nombre de la Cuenta": "HONORARIOS PERSONAS FÍSICAS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.21,
+      "Nombre de la Cuenta": "CUOTAS Y SUSCRIPCIONES",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.22,
+      "Nombre de la Cuenta": "DONATIVOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.23,
+      "Nombre de la Cuenta": "IMPUESTOS Y DERECHOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.24,
+      "Nombre de la Cuenta": "IMPUESTO PREDIAL",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.25,
+      "Nombre de la Cuenta": "AGUA",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.26,
+      "Nombre de la Cuenta": "OTROS IMPUESTOS Y DERECHOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.27,
+      "Nombre de la Cuenta": "MENSAJERÍA",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.28,
+      "Nombre de la Cuenta": "TELÉFONOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.29,
+      "Nombre de la Cuenta": "INTERNET",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.3,
+      "Nombre de la Cuenta": "LUZ",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.31,
+      "Nombre de la Cuenta": "VIGILANCIA",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.32,
+      "Nombre de la Cuenta": "COMBUSTIBLES Y LUBRICANTES",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.33,
+      "Nombre de la Cuenta": "BOLETOS DE AVIÓN",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.34,
+      "Nombre de la Cuenta": "PASAJES Y TRANSPORTES LOCALES",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.35,
+      "Nombre de la Cuenta": "HOSPEDAJE",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.36,
+      "Nombre de la Cuenta": "ALIMENTACIÓN",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.37,
+      "Nombre de la Cuenta": "OTROS GASTOS DE VIAJE",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.39,
+      "Nombre de la Cuenta": "PUBLICIDAD",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.4,
+      "Nombre de la Cuenta": "ARTÍCULOS PROMOCIONALES",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 602.41,
+      "Nombre de la Cuenta": "OTROS GASTOS DE VENTAS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 603.01,
+      "Nombre de la Cuenta": "GASTOS DE ADMINISTRACIÓN",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 614.0,
+      "Nombre de la Cuenta": "AMORTIZACIÓN DE GASTOS DIFERIDOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 701.0,
+      "Nombre de la Cuenta": "GASTOS FINANCIEROS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 702.0,
+      "Nombre de la Cuenta": "PRODUCTOS FINANCIEROS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 703.0,
+      "Nombre de la Cuenta": "OTROS PRODUCTOS FINANCIEROS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 704.0,
+      "Nombre de la Cuenta": "OTROS GASTOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 814.0,
+      "Nombre de la Cuenta": "OTROS INGRESOS",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    },
+    {
+      "Código": 814.01,
+      "Nombre de la Cuenta": "CUENTAS DE ORDEN",
+      "Tipo": "M",
+      "Descripción": "Cuenta de Mayor"
+    }
+  ],
+  "subcuentas_y_auxiliares": [
+    {
+      "Código Completo": "101.01",
+      "Cuenta Principal": 101,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "INTERBANCO, S.A.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "102.01",
+      "Cuenta Principal": 102,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "COMERCIO BANCO, S.A.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "102.03",
+      "Cuenta Principal": 102,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "INVERMEX",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "103.01",
+      "Cuenta Principal": 103,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "LA CASA DEL CARPINTERO, S.A.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "103.02",
+      "Cuenta Principal": 103,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "COMERCIALIZADORA DE ARTÍCULOS MAX, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "103.03",
+      "Cuenta Principal": 103,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "MERCADO DEL CARPINTERO, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "103.04",
+      "Cuenta Principal": 103,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "EL CARPINTERO, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "103.05",
+      "Cuenta Principal": 103,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "EL PALACIO DEL CARPINTERO, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "103.06",
+      "Cuenta Principal": 103,
+      "Subcuenta": 6.0,
+      "Nombre de la Cuenta": "COMERCIALIZADORA E IMPORTADORA DE ARTÍCULOS, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "103.07",
+      "Cuenta Principal": 103,
+      "Subcuenta": 7.0,
+      "Nombre de la Cuenta": "CARPINTERÍA LOS HERMANOS, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "103.08",
+      "Cuenta Principal": 103,
+      "Subcuenta": 8.0,
+      "Nombre de la Cuenta": "CARPINTERÍA SAN JOSÉ, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "103.09",
+      "Cuenta Principal": 103,
+      "Subcuenta": 9.0,
+      "Nombre de la Cuenta": "CARPINTERÍA INTERNACIONAL, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "105.01",
+      "Cuenta Principal": 105,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "ENRIQUETA MARTÍNEZ",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "105.02",
+      "Cuenta Principal": 105,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "MARIO PÉREZ",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "105.04",
+      "Cuenta Principal": 105,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "ROLANDO CASTRO MONTEMAYOR",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "105.05",
+      "Cuenta Principal": 105,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "DESPERDICIOS INDUSTRIALES, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "105.06",
+      "Cuenta Principal": 105,
+      "Subcuenta": 6.0,
+      "Nombre de la Cuenta": "MATERIALES RECICLADOS, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "105.07",
+      "Cuenta Principal": 105,
+      "Subcuenta": 7.0,
+      "Nombre de la Cuenta": "INDUSTRIAL DE ARTÍCULOS Y HERRAMIENTAS, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "106.01",
+      "Cuenta Principal": 106,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "LA CASA DEL CARPINTERO, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "106.02",
+      "Cuenta Principal": 106,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "GREGORIO RUIZ MORALES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "107.01",
+      "Cuenta Principal": 107,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "ENRIQUE ROSALES ROJAS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "107.03",
+      "Cuenta Principal": 107,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "MEXICANA DE ARTÍCULOS PARA CARPINTERÍA, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "107.05",
+      "Cuenta Principal": 107,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "ESTIMACIÓN DE CUENTAS INCOBRABLES NACIONALES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "108.01",
+      "Cuenta Principal": 108,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "INTERESES PAGADOS POR ANTICIPADO NACIONAL",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "110.01",
+      "Cuenta Principal": 110,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "IVA A FAVOR",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "113.01",
+      "Cuenta Principal": 113,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "IDE A FAVOR",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "113.03",
+      "Cuenta Principal": 113,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "ISR A FAVOR",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "113.06",
+      "Cuenta Principal": 113,
+      "Subcuenta": 6.0,
+      "Nombre de la Cuenta": "SUBSIDIO AL EMPLEO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "113.07",
+      "Cuenta Principal": 113,
+      "Subcuenta": 7.0,
+      "Nombre de la Cuenta": "PAGO DE LO INDEBIDO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "113.08",
+      "Cuenta Principal": 113,
+      "Subcuenta": 8.0,
+      "Nombre de la Cuenta": "OTROS IMPUESTOS A FAVOR",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "114.01",
+      "Cuenta Principal": 114,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "PAGOS PROVISIONALES DE ISR",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "115.02",
+      "Cuenta Principal": 115,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "MATERIA PRIMA Y MATERIALES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "115.04.001",
+      "Cuenta Principal": 115,
+      "Subcuenta": 4.001,
+      "Nombre de la Cuenta": "ROTORMARTILLOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "115.04.002",
+      "Cuenta Principal": 115,
+      "Subcuenta": 4.002,
+      "Nombre de la Cuenta": "TALADROS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "115.04.003",
+      "Cuenta Principal": 115,
+      "Subcuenta": 4.003,
+      "Nombre de la Cuenta": "CEPILLOS DE MADERA",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "115.04.004",
+      "Cuenta Principal": 115,
+      "Subcuenta": 4.004,
+      "Nombre de la Cuenta": "PRENSA DE MADERA",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "115.04.005",
+      "Cuenta Principal": 115,
+      "Subcuenta": 4.005,
+      "Nombre de la Cuenta": "MOTOSIERRA",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "115.04.006",
+      "Cuenta Principal": 115,
+      "Subcuenta": 4.006,
+      "Nombre de la Cuenta": "SIERRA MANUAL",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "115.04.007",
+      "Cuenta Principal": 115,
+      "Subcuenta": 4.007,
+      "Nombre de la Cuenta": "SIERRA SABLE",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "115.04.008",
+      "Cuenta Principal": 115,
+      "Subcuenta": 4.008,
+      "Nombre de la Cuenta": "TORNILLO PARA BANCO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "115.04.009",
+      "Cuenta Principal": 115,
+      "Subcuenta": 4.009,
+      "Nombre de la Cuenta": "PRENSADOR NODULAR",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "115.04.010",
+      "Cuenta Principal": 115,
+      "Subcuenta": 4.01,
+      "Nombre de la Cuenta": "CUCHILLA DE ENSAMBLADORA",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "115.05",
+      "Cuenta Principal": 115,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "JUEGO DE BROCAS PARA MADERA",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "115.05.001",
+      "Cuenta Principal": 115,
+      "Subcuenta": 5.001,
+      "Nombre de la Cuenta": "SIERRA DE CORTE ADAPTABLE",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "115.05.002",
+      "Cuenta Principal": 115,
+      "Subcuenta": 5.002,
+      "Nombre de la Cuenta": "MARTILLOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "115.05.003",
+      "Cuenta Principal": 115,
+      "Subcuenta": 5.003,
+      "Nombre de la Cuenta": "TALADROS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "115.06.001",
+      "Cuenta Principal": 115,
+      "Subcuenta": 6.001,
+      "Nombre de la Cuenta": "ARTÍCULOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "115.06.002",
+      "Cuenta Principal": 115,
+      "Subcuenta": 6.002,
+      "Nombre de la Cuenta": "ROTOMARTILLOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "115.06.003",
+      "Cuenta Principal": 115,
+      "Subcuenta": 6.003,
+      "Nombre de la Cuenta": "CEPILLOS DE MADERA",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "115.06.004",
+      "Cuenta Principal": 115,
+      "Subcuenta": 6.004,
+      "Nombre de la Cuenta": "PRENSA DE MADERAS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "115.06.005",
+      "Cuenta Principal": 115,
+      "Subcuenta": 6.005,
+      "Nombre de la Cuenta": "MOTOSIERRA",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "116.01",
+      "Cuenta Principal": 116,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "ESTIMACIÓN DE INVENTARIOS OBSOLETOS Y DE LENTO MOVIMIENTO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "118.01",
+      "Cuenta Principal": 118,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "IVA ACREDITABLE PAGADO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "118.02",
+      "Cuenta Principal": 118,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "IVA ACREDITABLE DE IMPORTACIÓN PAGADO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "119.01",
+      "Cuenta Principal": 119,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "IVA PENDIENTE DE PAGO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "120.01",
+      "Cuenta Principal": 120,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "ANTICIPO A PROVEEDORES NACIONAL",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "121.01",
+      "Cuenta Principal": 121,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "LA CASA DEL CARPINTERO MODERNO, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "151.01",
+      "Cuenta Principal": 151,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "TERRENOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "152.01",
+      "Cuenta Principal": 152,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "EDIFICIOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "153.01",
+      "Cuenta Principal": 153,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "MAQUINARIA Y EQUIPO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "154.01",
+      "Cuenta Principal": 154,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "AUTOMÓVILES, AUTOBUSES, CAMIONES DE CARGA, TRACTOCAMIONES, MONTAJES Y REMOLQUES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "155.01",
+      "Cuenta Principal": 155,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "MOBILIARIO Y EQUIPO DE OFICINA",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "156.01",
+      "Cuenta Principal": 156,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "EQUIPO DE CÓMPUTO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "171.01",
+      "Cuenta Principal": 171,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "DEPRECIACIÓN ACUMULADA DE EDIFICIOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "171.02",
+      "Cuenta Principal": 171,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "DEPRECIACIÓN ACUMULADA DE MAQUINARIA Y EQUIPO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "171.03",
+      "Cuenta Principal": 171,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "DEPRECIACIÓN ACUMULADA DE AUTOMÓVILES, AUTOBUSES, CAMIONES DE CARGA, TRACTOCAMIONES, MONTAJES Y REMOLQUES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "171.04",
+      "Cuenta Principal": 171,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "DEPRECIACIÓN ACUMULADA EQUIPO DE CÓMPUTO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "173.01",
+      "Cuenta Principal": 173,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "GASTOS DE DIFERIDOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "177.01",
+      "Cuenta Principal": 177,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "AMORTIZACIÓN DE GASTOS DE ORGANIZACIÓN",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "181.01",
+      "Cuenta Principal": 181,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "GASTOS DE INSTALACIÓN",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "183.01",
+      "Cuenta Principal": 183,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "AMORTIZACIÓN ACUMULADA DE ACTIVOS DIFERIDOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "183.03",
+      "Cuenta Principal": 183,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "AMORTIZACIÓN ACUMULADA DE GASTOS DIFERIDOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "183.05",
+      "Cuenta Principal": 183,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "AMORTIZACIÓN ACUMULADA DE GASTOS DE ORGANIZACIÓN",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "183.07",
+      "Cuenta Principal": 183,
+      "Subcuenta": 7.0,
+      "Nombre de la Cuenta": "AMORTIZACIÓN ACUMULADA DE GASTOS DE INSTALACIÓN",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "184.02",
+      "Cuenta Principal": 184,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "DEPÓSITOS DE ARRENDAMIENTO DE BIENES INMUEBLES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "184.03",
+      "Cuenta Principal": 184,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "OTROS DEPÓSITOS EN GARANTÍA",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "201.01.001",
+      "Cuenta Principal": 201,
+      "Subcuenta": 1.001,
+      "Nombre de la Cuenta": "ARTÍCULOS DE ACERO Y ALGO MAS, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "201.01.002",
+      "Cuenta Principal": 201,
+      "Subcuenta": 1.002,
+      "Nombre de la Cuenta": "TECNOLOGÍA MEXICANA, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "201.01.003",
+      "Cuenta Principal": 201,
+      "Subcuenta": 1.003,
+      "Nombre de la Cuenta": "MEGATECNOLOGÍA MEXICA, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "201.01.004",
+      "Cuenta Principal": 201,
+      "Subcuenta": 1.004,
+      "Nombre de la Cuenta": "COMERCIALIZADORA DE METALES, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "201.01.005",
+      "Cuenta Principal": 201,
+      "Subcuenta": 1.005,
+      "Nombre de la Cuenta": "MEXICANA DE HERRAMIENTAS, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "201.01.006",
+      "Cuenta Principal": 201,
+      "Subcuenta": 1.006,
+      "Nombre de la Cuenta": "INDUSTRIAS REGÍAS, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "201.01.007",
+      "Cuenta Principal": 201,
+      "Subcuenta": 1.007,
+      "Nombre de la Cuenta": "WALTER INDUSTRIAS, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "202.01.001",
+      "Cuenta Principal": 202,
+      "Subcuenta": 1.001,
+      "Nombre de la Cuenta": "INTER BANCO, S.A.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "202.03.001",
+      "Cuenta Principal": 202,
+      "Subcuenta": 3.001,
+      "Nombre de la Cuenta": "AUTOS INTERNACIONALES, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "202.03.002",
+      "Cuenta Principal": 202,
+      "Subcuenta": 3.002,
+      "Nombre de la Cuenta": "AUTOS EXCLUSIVOS, S.A.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "203.01",
+      "Cuenta Principal": 203,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "RENTAS COBRADAS POR ANTICIPADO A CORTO PLAZO NACIONAL",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "203.05",
+      "Cuenta Principal": 203,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "INTERESES COBRADOS POR ANTICIPADO A CORTO PLAZO NACIONAL",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "205.02.001",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.001,
+      "Nombre de la Cuenta": "CONSTRUCTORA DEL RÍO, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "205.02.002",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.002,
+      "Nombre de la Cuenta": "MUEBLES EMPRESARIALES, S.A.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "205.02.003",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.003,
+      "Nombre de la Cuenta": "CENTRO DE COMPUTACIÓN, S.A.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "205.02.004",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.004,
+      "Nombre de la Cuenta": "ASEGURADORA MÉXICO, S.A.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "205.02.005",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.005,
+      "Nombre de la Cuenta": "COMPAÑÍA PAPELERA INDUSTRIAL, S.A.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "205.02.006",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.006,
+      "Nombre de la Cuenta": "INMOBILIARIA ANTÚNEZ, S.A.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "205.02.007",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.007,
+      "Nombre de la Cuenta": "AUTOS INTERNACIONALES, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "205.02.008",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.008,
+      "Nombre de la Cuenta": "FLETES NACIONALES, S.A.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "205.02.009",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.009,
+      "Nombre de la Cuenta": "COMPAÑÍA DE LUZ",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "205.02.010",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.01,
+      "Nombre de la Cuenta": "TESORERÍA DEL GOBIERNO DE LA CDMX",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "205.02.011",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.011,
+      "Nombre de la Cuenta": "COMPAÑÍA TELEFÓNICA S.A.B",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "205.02.012",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.012,
+      "Nombre de la Cuenta": "MUEBLES EXCLUSIVOS DE OFICINA S.A.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "205.02.013",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.013,
+      "Nombre de la Cuenta": "MEXICANA DE GASOLINAS Y LUBRICANTES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "205.02.014",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.014,
+      "Nombre de la Cuenta": "FLETES THOMAS Y CIA, S.A.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "205.02.015",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.015,
+      "Nombre de la Cuenta": "SERVICAR, S.A.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "205.02.016",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.016,
+      "Nombre de la Cuenta": "AUTOTRANSPORTES MOLINA, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "205.02.017",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.017,
+      "Nombre de la Cuenta": "ASEGURADORA MONTERREY, S.R.L.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "205.02.018",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.018,
+      "Nombre de la Cuenta": "MANIOBRAS NACIONALES, S.A.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "205.02.019",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.019,
+      "Nombre de la Cuenta": "NOTARÍA MORALES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "205.02.020",
+      "Cuenta Principal": 205,
+      "Subcuenta": 2.02,
+      "Nombre de la Cuenta": "FLETES Y MUDANZAS, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "206.01",
+      "Cuenta Principal": 206,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "ANTICIPO DE CLIENTES NACIONALES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "206.05",
+      "Cuenta Principal": 206,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "LA CASA DEL ZAPATO, S.A. DE C.V.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "207.01",
+      "Cuenta Principal": 207,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "IVA TRASLADADO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "207.02",
+      "Cuenta Principal": 207,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "IEPS TRASLADADO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "210.01",
+      "Cuenta Principal": 210,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE SUELDOS Y SALARIOS POR PAGAR VENTA DE MERCANCÍA",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "210.02",
+      "Cuenta Principal": 210,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE VACACIONES POR PAGAR",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "210.03",
+      "Cuenta Principal": 210,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE AGUINALDOS POR PAGAR",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "210.04",
+      "Cuenta Principal": 210,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE FONDO DE AHORRO POR PAGAR",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "210.05",
+      "Cuenta Principal": 210,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE ASIMILADOS A SALARIOS POR PAGAR",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "210.06",
+      "Cuenta Principal": 210,
+      "Subcuenta": 6.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE REMANENTES POR DISTRIBUIR",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "210.07",
+      "Cuenta Principal": 210,
+      "Subcuenta": 7.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE OTROS SUELDOS Y SALARIOS POR PAGAR",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "211.01",
+      "Cuenta Principal": 211,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE IMSS PATRONAL POR PAGAR",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "211.02",
+      "Cuenta Principal": 211,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE SAR POR PAGAR",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "211.03",
+      "Cuenta Principal": 211,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "PROVISIÓN DE INFONAVIT POR PAGAR",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "212.01",
+      "Cuenta Principal": 212,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "IVA POR PAGAR",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "212.02",
+      "Cuenta Principal": 212,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "IEPS POR PAGAR",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "213.01",
+      "Cuenta Principal": 213,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "VACACIONES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "213.02",
+      "Cuenta Principal": 213,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "AGUINALDOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "213.03",
+      "Cuenta Principal": 213,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "IMPUESTO ESTATAL SOBRE NÓMINAS POR PAGAR",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "213.04",
+      "Cuenta Principal": 213,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "IMPUESTO ESTATAL Y MUNICIPAL POR PAGAR",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "216.01",
+      "Cuenta Principal": 216,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "RETENCIONES ISR POR SUELDOS Y SALARIOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "216.02",
+      "Cuenta Principal": 216,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "RETENCIONES ISR POR ASIMILADOS A SALARIOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "216.03",
+      "Cuenta Principal": 216,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "RETENCIONES ISR POR HONORARIOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "216.04",
+      "Cuenta Principal": 216,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "RETENCIONES ISR POR ARRENDAMIENTO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "216.05",
+      "Cuenta Principal": 216,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "10% ARRENDAMIENTO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "216.07",
+      "Cuenta Principal": 216,
+      "Subcuenta": 7.0,
+      "Nombre de la Cuenta": "RETENCIONES ISR POR DIVIDENDOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "216.08",
+      "Cuenta Principal": 216,
+      "Subcuenta": 8.0,
+      "Nombre de la Cuenta": "RETENCIONES ISR POR PAGOS AL EXTRANJERO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "216.09",
+      "Cuenta Principal": 216,
+      "Subcuenta": 9.0,
+      "Nombre de la Cuenta": "IMPUESTOS RETENIDOS DE ISR POR VENTA DE ACCIONES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "216.10",
+      "Cuenta Principal": 216,
+      "Subcuenta": 10.0,
+      "Nombre de la Cuenta": "IMPUESTOS RETENIDOS DE ISR POR VENTA DE PARTES SOCIALES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "216.11",
+      "Cuenta Principal": 216,
+      "Subcuenta": 11.0,
+      "Nombre de la Cuenta": "IMPUESTOS RETENIDOS DE IVA",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "216.12",
+      "Cuenta Principal": 216,
+      "Subcuenta": 12.0,
+      "Nombre de la Cuenta": "RETENCIONES DE IMSS A LOS TRABAJADORES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "252.01.001",
+      "Cuenta Principal": 252,
+      "Subcuenta": 1.001,
+      "Nombre de la Cuenta": "HIPOTECAS POR PAGAR A LARGO PLAZO NACIONAL",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "252.07",
+      "Cuenta Principal": 252,
+      "Subcuenta": 7.0,
+      "Nombre de la Cuenta": "INTERESES POR PAGAR A LARGO PLAZO NACIONAL",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "252.11",
+      "Cuenta Principal": 252,
+      "Subcuenta": 11.0,
+      "Nombre de la Cuenta": "DIVIDENDOS POR PAGAR A LARGO PLAZO NACIONAL",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "252.17",
+      "Cuenta Principal": 252,
+      "Subcuenta": 17.0,
+      "Nombre de la Cuenta": "OTRAS CUENTAS Y DOCUMENTOS POR PAGAR A LARGO PLAZO NACIONAL",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "253.01",
+      "Cuenta Principal": 253,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "RENTAS COBRADAS POR ANTICIPADO A LARGO PLAZO NACIONAL",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "253.05",
+      "Cuenta Principal": 253,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "INTERESES COBRADOS POR ANTICIPADO A LARGO PLAZO NACIONAL",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "301.01",
+      "Cuenta Principal": 301,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "CAPITAL SOCIAL FIJO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "305.01",
+      "Cuenta Principal": 305,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "UTILIDAD DEL EJERCICIO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "305.02",
+      "Cuenta Principal": 305,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "PÉRDIDA DEL EJERCICIO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "401.01.001",
+      "Cuenta Principal": 401,
+      "Subcuenta": 1.001,
+      "Nombre de la Cuenta": "VENTAS Y/O SERVICIOS GRAVADOS A LA TASA GENERAL",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "402.01",
+      "Cuenta Principal": 402,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "DEVOLUCIONES, DESCUENTOS O BONIFICACIONES SOBRE VENTAS Y/O SERVICIOS A LA TASA GENERAL",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "403.01",
+      "Cuenta Principal": 403,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "OTROS INGRESOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "501.01",
+      "Cuenta Principal": 501,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "COSTO DE VENTAS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "501.02",
+      "Cuenta Principal": 501,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "COSTO DE VENTAS DE MERCANCÍA EN CONSIGNACIÓN",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "602.45",
+      "Cuenta Principal": 602,
+      "Subcuenta": 45.0,
+      "Nombre de la Cuenta": "PUBLICIDAD",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "602.46",
+      "Cuenta Principal": 602,
+      "Subcuenta": 46.0,
+      "Nombre de la Cuenta": "ARTÍCULOS PROMOCIONALES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "602.47",
+      "Cuenta Principal": 602,
+      "Subcuenta": 47.0,
+      "Nombre de la Cuenta": "OTROS GASTOS DE VENTAS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "602.48",
+      "Cuenta Principal": 602,
+      "Subcuenta": 48.0,
+      "Nombre de la Cuenta": "COMIDAS CON EL PERSONAL",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "602.49",
+      "Cuenta Principal": 602,
+      "Subcuenta": 49.0,
+      "Nombre de la Cuenta": "COMIDAS DE NEGOCIOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "602.50",
+      "Cuenta Principal": 602,
+      "Subcuenta": 50.0,
+      "Nombre de la Cuenta": "GASTOS DE FIN DE AÑO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "602.51",
+      "Cuenta Principal": 602,
+      "Subcuenta": 51.0,
+      "Nombre de la Cuenta": "DIVERSOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "602.55",
+      "Cuenta Principal": 602,
+      "Subcuenta": 55.0,
+      "Nombre de la Cuenta": "NO DEDUCIBLES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "602.56",
+      "Cuenta Principal": 602,
+      "Subcuenta": 56.0,
+      "Nombre de la Cuenta": "GASTOS DE VENTA DE MERCANCÍAS EN CONSIGNACIÓN",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.02",
+      "Cuenta Principal": 603,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "SUELDOS Y SALARIOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.03",
+      "Cuenta Principal": 603,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "ASIMILADOS Y SALARIOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.04",
+      "Cuenta Principal": 603,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "HORAS EXTRAS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.05",
+      "Cuenta Principal": 603,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "COMISIONES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.06",
+      "Cuenta Principal": 603,
+      "Subcuenta": 6.0,
+      "Nombre de la Cuenta": "BONOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.07",
+      "Cuenta Principal": 603,
+      "Subcuenta": 7.0,
+      "Nombre de la Cuenta": "AGUINALDO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.08",
+      "Cuenta Principal": 603,
+      "Subcuenta": 8.0,
+      "Nombre de la Cuenta": "VACACIONES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.09",
+      "Cuenta Principal": 603,
+      "Subcuenta": 9.0,
+      "Nombre de la Cuenta": "PRIMA VACACIONAL",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.10",
+      "Cuenta Principal": 603,
+      "Subcuenta": 10.0,
+      "Nombre de la Cuenta": "PTU",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.11",
+      "Cuenta Principal": 603,
+      "Subcuenta": 11.0,
+      "Nombre de la Cuenta": "CURSOS Y BECAS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.12",
+      "Cuenta Principal": 603,
+      "Subcuenta": 12.0,
+      "Nombre de la Cuenta": "VALES DE DESPENSA",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.13",
+      "Cuenta Principal": 603,
+      "Subcuenta": 13.0,
+      "Nombre de la Cuenta": "AYUDA DE COMEDOR",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.14",
+      "Cuenta Principal": 603,
+      "Subcuenta": 14.0,
+      "Nombre de la Cuenta": "FONDO DE AHORRO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.15",
+      "Cuenta Principal": 603,
+      "Subcuenta": 15.0,
+      "Nombre de la Cuenta": "CUOTA IMSS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.16",
+      "Cuenta Principal": 603,
+      "Subcuenta": 16.0,
+      "Nombre de la Cuenta": "APORTACIONES AL SAR",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.17",
+      "Cuenta Principal": 603,
+      "Subcuenta": 17.0,
+      "Nombre de la Cuenta": "APORTACIONES AL INFONAVIT",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.18",
+      "Cuenta Principal": 603,
+      "Subcuenta": 18.0,
+      "Nombre de la Cuenta": "IMPUESTO SOBRE NÓMINA",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.19",
+      "Cuenta Principal": 603,
+      "Subcuenta": 19.0,
+      "Nombre de la Cuenta": "DESPENSA Y ART. ASEO PARA OFNA.",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.20",
+      "Cuenta Principal": 603,
+      "Subcuenta": 20.0,
+      "Nombre de la Cuenta": "MANTT. EQUIPO DE TRANSPORTE",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.21",
+      "Cuenta Principal": 603,
+      "Subcuenta": 21.0,
+      "Nombre de la Cuenta": "MANTTO. DE EQUIPO CÓMPUTO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.22",
+      "Cuenta Principal": 603,
+      "Subcuenta": 22.0,
+      "Nombre de la Cuenta": "SEGUROS Y FIANZAS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.23",
+      "Cuenta Principal": 603,
+      "Subcuenta": 23.0,
+      "Nombre de la Cuenta": "RENTA DE LOCALES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.24",
+      "Cuenta Principal": 603,
+      "Subcuenta": 24.0,
+      "Nombre de la Cuenta": "PAPELERÍA Y ARTÍCULOS PARA OFICINA",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.25",
+      "Cuenta Principal": 603,
+      "Subcuenta": 25.0,
+      "Nombre de la Cuenta": "HONORARIOS PERSONAS MORALES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.26",
+      "Cuenta Principal": 603,
+      "Subcuenta": 26.0,
+      "Nombre de la Cuenta": "HONORARIOS PERSONAS FÍSICAS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.27",
+      "Cuenta Principal": 603,
+      "Subcuenta": 27.0,
+      "Nombre de la Cuenta": "CUOTAS Y SUSCRIPCIONES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.28",
+      "Cuenta Principal": 603,
+      "Subcuenta": 28.0,
+      "Nombre de la Cuenta": "DONATIVOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.29",
+      "Cuenta Principal": 603,
+      "Subcuenta": 29.0,
+      "Nombre de la Cuenta": "IMPUESTOS Y DERECHOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.30",
+      "Cuenta Principal": 603,
+      "Subcuenta": 30.0,
+      "Nombre de la Cuenta": "IMPUESTO PREDIAL",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.31",
+      "Cuenta Principal": 603,
+      "Subcuenta": 31.0,
+      "Nombre de la Cuenta": "AGUA",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.32",
+      "Cuenta Principal": 603,
+      "Subcuenta": 32.0,
+      "Nombre de la Cuenta": "OTROS IMPUESTOS Y DERECHOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.33",
+      "Cuenta Principal": 603,
+      "Subcuenta": 33.0,
+      "Nombre de la Cuenta": "MENSAJERÍA",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.34",
+      "Cuenta Principal": 603,
+      "Subcuenta": 34.0,
+      "Nombre de la Cuenta": "TELÉFONOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.35",
+      "Cuenta Principal": 603,
+      "Subcuenta": 35.0,
+      "Nombre de la Cuenta": "INTERNET",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.36",
+      "Cuenta Principal": 603,
+      "Subcuenta": 36.0,
+      "Nombre de la Cuenta": "LUZ",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.37",
+      "Cuenta Principal": 603,
+      "Subcuenta": 37.0,
+      "Nombre de la Cuenta": "VIGILANCIA",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.38",
+      "Cuenta Principal": 603,
+      "Subcuenta": 38.0,
+      "Nombre de la Cuenta": "COMBUSTIBLES Y LUBRICANTES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.39",
+      "Cuenta Principal": 603,
+      "Subcuenta": 39.0,
+      "Nombre de la Cuenta": "BOLETOS DE AVIÓN",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.40",
+      "Cuenta Principal": 603,
+      "Subcuenta": 40.0,
+      "Nombre de la Cuenta": "PASAJES Y TRANSPORTES LOCALES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.41",
+      "Cuenta Principal": 603,
+      "Subcuenta": 41.0,
+      "Nombre de la Cuenta": "HOSPEDAJE",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.42",
+      "Cuenta Principal": 603,
+      "Subcuenta": 42.0,
+      "Nombre de la Cuenta": "ALIMENTACIÓN",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.43",
+      "Cuenta Principal": 603,
+      "Subcuenta": 43.0,
+      "Nombre de la Cuenta": "OTROS GASTOS DE VIAJE",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.44",
+      "Cuenta Principal": 603,
+      "Subcuenta": 44.0,
+      "Nombre de la Cuenta": "PUBLICIDAD",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.45",
+      "Cuenta Principal": 603,
+      "Subcuenta": 45.0,
+      "Nombre de la Cuenta": "ARTÍCULOS PROMOCIONALES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.46",
+      "Cuenta Principal": 603,
+      "Subcuenta": 46.0,
+      "Nombre de la Cuenta": "OTROS GASTOS DE VENTAS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.48",
+      "Cuenta Principal": 603,
+      "Subcuenta": 48.0,
+      "Nombre de la Cuenta": "COMIDAS CON EL PERSONAL",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.49",
+      "Cuenta Principal": 603,
+      "Subcuenta": 49.0,
+      "Nombre de la Cuenta": "COMIDAS DE NEGOCIOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.50",
+      "Cuenta Principal": 603,
+      "Subcuenta": 50.0,
+      "Nombre de la Cuenta": "GASTOS DE FIN DE AÑO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.51",
+      "Cuenta Principal": 603,
+      "Subcuenta": 51.0,
+      "Nombre de la Cuenta": "DIVERSOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.55",
+      "Cuenta Principal": 603,
+      "Subcuenta": 55.0,
+      "Nombre de la Cuenta": "NO DEDUCIBLES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "603.56",
+      "Cuenta Principal": 603,
+      "Subcuenta": 56.0,
+      "Nombre de la Cuenta": "DEPRECIACIÓN DE PLANTA Y EQUIPO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "613.01",
+      "Cuenta Principal": 613,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "DEPRECIACIÓN DE EDIFICIOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "613.03",
+      "Cuenta Principal": 613,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "DEPRECIACIÓN AUTOMÓVILES, AUTOBUSES, CAMIONES DE CARGA, TRACTOCAMIONES, MONTAJES Y REMOLQUES",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "613.04",
+      "Cuenta Principal": 613,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "DEPRECIACIÓN EQUIPO DE CÓMPUTO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "613.05",
+      "Cuenta Principal": 613,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "DEPRECIACIÓN DE EQUIPO DE CÓMPUTO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "614.05",
+      "Cuenta Principal": 614,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "AMORTIZACIÓN DE GASTOS DE ORGANIZACIÓN",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "614.09",
+      "Cuenta Principal": 614,
+      "Subcuenta": 9.0,
+      "Nombre de la Cuenta": "AMORTIZACIÓN DE GASTOS DE INSTALACIÓN",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "701.01",
+      "Cuenta Principal": 701,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "PÉRDIDA CAMBIARIA",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "701.04",
+      "Cuenta Principal": 701,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "COMISIONES BANCARIAS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "701.06",
+      "Cuenta Principal": 701,
+      "Subcuenta": 6.0,
+      "Nombre de la Cuenta": "INTERESES A CARGO BANCARIO NACIONAL",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "701.08",
+      "Cuenta Principal": 701,
+      "Subcuenta": 8.0,
+      "Nombre de la Cuenta": "INTERESES A CARGO DE PERSONAS FÍSICAS NACIONAL",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "701.10",
+      "Cuenta Principal": 701,
+      "Subcuenta": 10.0,
+      "Nombre de la Cuenta": "INTERESES A CARGO DE PERSONAS MORALES NACIONAL",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "701.11",
+      "Cuenta Principal": 701,
+      "Subcuenta": 11.0,
+      "Nombre de la Cuenta": "COMISIONES BANCARIAS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "702.01",
+      "Cuenta Principal": 702,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "UTILIDAD CAMBIARIA",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "702.04",
+      "Cuenta Principal": 702,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "INTERESES BANCARIOS A FAVOR NACIONAL",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "702.06",
+      "Cuenta Principal": 702,
+      "Subcuenta": 6.0,
+      "Nombre de la Cuenta": "INTERESES A FAVOR DE PERSONAS FÍSICAS NACIONAL",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "702.10",
+      "Cuenta Principal": 702,
+      "Subcuenta": 10.0,
+      "Nombre de la Cuenta": "INTERESES A FAVOR DE PERSONAS MORALES NACIONAL",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "703.21",
+      "Cuenta Principal": 703,
+      "Subcuenta": 21.0,
+      "Nombre de la Cuenta": "OTROS PRODUCTOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "704.01",
+      "Cuenta Principal": 704,
+      "Subcuenta": 1.0,
+      "Nombre de la Cuenta": "PÉRDIDA EN VENTA DE ACTIVO FIJO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "704.23",
+      "Cuenta Principal": 704,
+      "Subcuenta": 23.0,
+      "Nombre de la Cuenta": "EN VENTAS DE ACTIVO FIJO",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "814.02",
+      "Cuenta Principal": 814,
+      "Subcuenta": 2.0,
+      "Nombre de la Cuenta": "MERCANCÍAS EN CONSIGNACIÓN",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "814.03",
+      "Cuenta Principal": 814,
+      "Subcuenta": 3.0,
+      "Nombre de la Cuenta": "COMITENTE CUENTA DE MERCANCÍAS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "814.04",
+      "Cuenta Principal": 814,
+      "Subcuenta": 4.0,
+      "Nombre de la Cuenta": "FONDOS DEL COMITENTE",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "814.05",
+      "Cuenta Principal": 814,
+      "Subcuenta": 5.0,
+      "Nombre de la Cuenta": "COMITENTE CUENTA DE FONDOS",
+      "Tipo": "A"
+    },
+    {
+      "Código Completo": "814.06",
+      "Cuenta Principal": 814,
+      "Subcuenta": 6.0,
+      "Nombre de la Cuenta": "CLIENTES DEL COMITENTE",
+      "Tipo": "A"
+    }
+  ]
+}
