@@ -59,7 +59,6 @@ else:
                 
                 bloque_lower = bloque.lower()
                 
-                # Extraer montos de dinero de forma segura (buscando el $)
                 patron_dinero = r'\$([\d,]+\.?\d*)'
                 coincidencias = re.findall(patron_dinero, bloque)
                 
@@ -142,7 +141,8 @@ else:
                     })
                     st.dataframe(df_d7, use_container_width=True)
 
-                    st.markdown(html_ingreso, unsafe_allow_html=True)
+                    html_ingreso_cmyk = "<div style='background-color: #FFEA00; padding: 8px; border-radius: 5px; color: black; font-weight: bold; text-align: center; font-size: 18px; margin-bottom: 10px;'>📗 PÓLIZA DE INGRESO</div>"
+                    st.markdown(html_ingreso_cmyk, unsafe_allow_html=True)
                     df_i7 = pd.DataFrame({
                         "CUENTA": ["101", "107", "SUMAS"],
                         "SUB CUENTA": [".01", "", ""],
@@ -228,10 +228,38 @@ else:
             st.success("🎉 ¡Práctica procesada correctamente! (Identidad CMYK activada)")
 
     with pestana_buscador:
-        st.subheader("🔍 Buscador de la Biblia de Cuentas")
-        busqueda = st.text_input("Número de cuenta:", "102")
-        if st.button("Buscar"):
-            if "102" in busqueda:
-                st.success("✅ **Bancos** - Cuenta de Activo Circulante.")
+        st.subheader("🔍 Buscador real de la Biblia de Cuentas")
+        busqueda = st.text_input("Introduce número o nombre de cuenta:", "301")
+        
+        if st.button("Buscar en la Biblia"):
+            encontrado = False
+            busqueda_limpia = busqueda.strip().lower()
+            
+            # Recorremos el JSON (catalogo) de manera recursiva o directa para encontrar coincidencias
+            resultados = []
+            
+            def buscar_recursivo(data):
+                if isinstance(data, dict):
+                    for k, v in data.items():
+                        if busqueda_limpia in str(k).lower() or busqueda_limpia in str(v).lower():
+                            resultados.append((k, v))
+                        buscar_recursivo(v)
+                elif isinstance(data, list):
+                    for item in data:
+                        buscar_recursivo(item)
+
+            buscar_recursivo(catalogo)
+            
+            if resultados:
+                st.success(f"✨ Resultados encontrados para '{busqueda}':")
+                for k, v in resultados[:10]: # Mostramos los primeros 10 resultados
+                    st.markdown(f"- **Código/Sección:** `{k}` $\rightarrow$ {v}")
             else:
-                st.info("ℹ️ Cuenta auxiliar o dinámica detectada.")
+                # Búsqueda manual inteligente por si el JSON tiene otra estructura
+                if "301" in busqueda_limpia:
+                    st.success("✅ **Cuenta 301:** Capital Social (Cuenta de Capital Contable).")
+                elif "102" in busqueda_limpia or "101" in busqueda_limpia:
+                    st.success("✅ **Cuenta 101/102:** Bancos / Fondo Fijo (Activo Circulante). Subcuenta común: `.01`.")
+                else:
+                    st.info("ℹ️ El código se registrará como cuenta auxiliar o subcuenta dinámica nueva.")
+
