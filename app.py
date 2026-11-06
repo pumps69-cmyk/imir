@@ -6,8 +6,8 @@ import re
 # Configuración de la página
 st.set_page_config(page_title="Trapito el que lo lea", layout="centered")
 
-st.title("IMIR 🤖📊 - Edición Martillito de Acero")
-st.markdown("Imir v.3.0 by pumps (Adaptado para Consignaciones y Comisionistas)")
+st.title("IMIR 🤖📊 - Edición Martillito de Acero (Pro)")
+st.markdown("Imir v.4.0 by pumps (Catálogo Completo Integrado)")
 
 # Cargar la biblia de cuentas
 @st.cache_data
@@ -20,22 +20,37 @@ def cargar_catalogo():
 
 catalogo = cargar_catalogo()
 
-# Función Mágica que consulta tu JSON
-def obtener_nombre_cuenta(codigo):
-    if catalogo and "cuentas_de_mayor" in catalogo:
-        for c in catalogo["cuentas_de_mayor"]:
-            if c.get("Código Completo") == codigo:
+# Función Mágica que consulta tu nuevo JSON
+def obtener_nombre_cuenta(codigo_buscado):
+    if catalogo is None:
+        return "Cuenta Desconocida"
+    
+    codigo_str = str(codigo_buscado).strip()
+    
+    # Buscar primero en catalogo_separado (que tiene los códigos como string exacto)
+    if "catalogo_separado" in catalogo:
+        for c in catalogo["catalogo_separado"]:
+            if str(c.get("Código Completo", "")).strip() == codigo_str:
                 return c.get("Nombre de la Cuenta")
+                
+    # Si no lo encuentra, buscar en cuentas_de_mayor (por si le pasas el número pelón)
+    if "cuentas_de_mayor" in catalogo:
+        for c in catalogo["cuentas_de_mayor"]:
+            cod = str(c.get("Código", ""))
+            # Limpiamos los .0 para que cuadre
+            if cod == codigo_str or cod.replace(".0", ".00") == codigo_str:
+                return c.get("Nombre de la Cuenta")
+
     return "Cuenta Desconocida"
 
 if catalogo is None:
-    st.error("⚠️ No se encontró el archivo 'biblia.json' en la raíz. ¡Créalo con el código que te pasé!")
+    st.error("⚠️ No se encontró el archivo 'biblia.json'. ¡Guarda tu JSON gigantesto en la misma carpeta!")
 else:
-    pestana_generador, pestana_buscador = st.tabs(["🚀 Procesador Masivo CMYK", "🔍 Buscador de Cuentas"])
+    pestana_generador, pestana_buscador = st.tabs(["🚀 Procesador Masivo CMYK", "🔍 Buscador de Cuentas (Nivel Dios)"])
 
     with pestana_generador:
         st.subheader("1. Pega tu Bloque de Operaciones")
-        st.markdown("Pega tu lista de operaciones. Imir detectará automáticamente las operaciones del comitente.")
+        st.markdown("Pega tu lista de operaciones. Imir está adaptado para tu nuevo catálogo.")
         
         texto_masivo = st.text_area(
             "Enunciados de la práctica:",
@@ -80,8 +95,9 @@ else:
                     st.info("💡 Operación: Recepción de Mercancías del Comitente (Cuentas de Orden)")
                     st.markdown(html_diario, unsafe_allow_html=True)
                     df = pd.DataFrame({
-                        "CUENTA": ["814.01", "801.02", "SUMAS"],
-                        "NOMBRE DE LA CUENTA": [obtener_nombre_cuenta("814.01"), obtener_nombre_cuenta("801.02"), "Sumas Iguales"],
+                        # Usando los códigos exactos de tu JSON:
+                        "CUENTA": ["814.01", "814.03", "SUMAS"], 
+                        "NOMBRE DE LA CUENTA": [obtener_nombre_cuenta("814.01"), obtener_nombre_cuenta("814.03"), "Sumas Iguales"],
                         "DEBE": [f"${monto_base:,.2f}", "", f"${monto_base:,.2f}"],
                         "HABER": ["", f"${monto_base:,.2f}", f"${monto_base:,.2f}"]
                     })
@@ -108,7 +124,7 @@ else:
                         cta_cargo = "102.00"  # Bancos
                     else:
                         st.markdown(html_diario, unsafe_allow_html=True)
-                        cta_cargo = "105.00"  # Clientes
+                        cta_cargo = "103.00"  # En tu nuevo JSON, Clientes es 103.00
 
                     # Registro de la deuda a favor del comitente
                     df1 = pd.DataFrame({
@@ -122,8 +138,8 @@ else:
                     # Baja de la mercancía en cuentas de orden
                     st.markdown("**Baja de Mercancías en Cuentas de Orden:**")
                     df2 = pd.DataFrame({
-                        "CUENTA": ["801.02", "814.01", "SUMAS"],
-                        "NOMBRE DE LA CUENTA": [obtener_nombre_cuenta("801.02"), obtener_nombre_cuenta("814.01"), "Sumas Iguales"],
+                        "CUENTA": ["814.03", "814.01", "SUMAS"],
+                        "NOMBRE DE LA CUENTA": [obtener_nombre_cuenta("814.03"), obtener_nombre_cuenta("814.01"), "Sumas Iguales"],
                         "DEBE": [f"${monto_base:,.2f}", "", f"${monto_base:,.2f}"],
                         "HABER": ["", f"${monto_base:,.2f}", f"${monto_base:,.2f}"]
                     })
@@ -132,29 +148,33 @@ else:
                 # --- CASO GENERAL (Cualquier otra operación) ---
                 else:
                     if monto_base > 0:
-                        st.warning(f"⚠️ Operación general detectada con monto ${monto_base:,.2f}.")
+                        st.warning(f"⚠️ Operación general detectada con monto ${monto_base:,.2f}. Revisa el bloque.")
                     else:
                         st.info("ℹ️ Operación informativa o sin montos detectados.")
 
     with pestana_buscador:
-        st.subheader("🔍 Buscador del Catálogo")
-        busqueda = st.text_input("Introduce código o nombre:", "Mercancías en comisión")
+        st.subheader("🔍 Buscador del Catálogo (Nivel Dios)")
+        busqueda = st.text_input("Introduce código o nombre (Ej: 115, cliente, comitente):")
         
         if st.button("Buscar Cuenta"):
             encontrados = []
             busq = busqueda.strip().lower()
-            if catalogo and "cuentas_de_mayor" in catalogo:
-                for item in catalogo["cuentas_de_mayor"]:
+            
+            # Buscar directo en catalogo_separado porque ahí tienes absolutamente todas
+            if catalogo and "catalogo_separado" in catalogo:
+                for item in catalogo["catalogo_separado"]:
                     codigo = str(item.get("Código Completo", "")).lower()
                     nombre = str(item.get("Nombre de la Cuenta", "")).lower()
+                    tipo = str(item.get("Tipo (M/A)", "")).upper()
+                    
                     if busq in codigo or busq in nombre:
-                        encontrados.append(item)
+                        encontrados.append((item.get("Código Completo"), item.get("Nombre de la Cuenta"), tipo))
 
             if encontrados:
-                st.success("✨ Resultados:")
-                for c in encontrados[:10]:
-                    cod = c.get("Código Completo", "N/A")
-                    nom = c.get("Nombre de la Cuenta", "N/A")
-                    st.markdown(f"**Código:** `{cod}` — **{nom}**")
+                st.success(f"✨ ¡Bingo! Encontré {len(encontrados)} resultados:")
+                for cod, nom, tipo in encontrados:
+                    # Le puse colores visuales para que sepas si es Mayor o Auxiliar
+                    etiqueta_tipo = "🟢 Mayor" if tipo == "M" else "🔵 Auxiliar"
+                    st.markdown(f"**{etiqueta_tipo} | Código:** `{cod}` — **{nom}**")
             else:
-                st.warning("⚠️ No se encontró la cuenta en la Biblia.")
+                st.warning("⚠️ No se encontró la cuenta en este mega catálogo.")
